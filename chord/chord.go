@@ -1,82 +1,41 @@
 package chord
 
 import (
-	"fmt"
+	"math/rand"
+	"time"
 )
 
-
-
 type Chord struct {
-	Nodes map[int]Node
+	Nodes []*Node
 }
 
-func NewChord() Chord{
-	return Chord{make(map[int]Node)}
+func NewChord() Chord {
+	return Chord{make([]*Node, 0)}
 }
 
-func (c *Chord) Build() {
-
-}
-
-
-func (chord *Chord) Join(node Node, sn int) {
-
-	// If there are no nodes in the Chord network, set the new node as the first node
-	if len(chord.Nodes) == 0 {
-		node.Predecessor = &node
-
-		for i:= 0; i < KS; i++{
-			node.FingerTable.start = append(node.FingerTable.start, i)
-			node.FingerTable.fingerNode = append(node.FingerTable.fingerNode, &node)
+func (c *Chord) Join(n *Node) {
+	if len(c.Nodes) == 0 {
+		n.Predecessor = n
+		for i := 0; i < KS; i++ {
+			n.FingerTable[i] = Finger{(n.Id + pow(2, i)) % HS, n}
 		}
-		
-		chord.Nodes[node.Id] = node
-		return
+
+	} else {
+		n.InitFingerTable()
+		bootstrap := c.bootstrapNode()
+		succ := bootstrap.FindSuccessor(n.Id)
+		n.FingerTable[0].Successor = succ
+		n.Stabilize()
+		n.Notify()
+		n.FixFingers()
 	}
 
-	startingNode := chord.getNode(sn)
-	startingNode.Successor(node.Id)
-
-	// Find the predecessor node for the new node
-
-	//predecessor := chord.findPredecessor(node.Id)
-
-	// predecessor := chord.Nodes[1]
-	// // // Update successor and predecessor pointers for the new node
-	// node.Successor = predecessor.Successor
-	// node.Predecessor = &predecessor
-	// predecessor.Successor = &node
-
-	// chord.Nodes[node.Id] = node
-
-	// Update finger tables for relevant nodes
-	// chord.updateFingerTables(node)
-
-	// chord.nodes[node.id] = node
+	c.Nodes = append(c.Nodes, n)
 }
 
-// func (chord *Chord) findPredecessor(id int) *Node {
-// 	for _, n := range chord.Nodes {
-// 		if compCWDist(n.Id, n.Successor.Id, id) {
-// 			return &n
-// 		}
-// 		pred := n
-// 	}
-// 	return &c // Should not reach here in a properly initialized Chord network
-// }
-
-func (chord *Chord) getNode(id int) Node {
-	if _, ok := chord.Nodes[id]; ok{
-		return chord.Nodes[id]
-	}
-	for _, n := range(chord.Nodes){
-		return n
-	}
-	return NewNode(1000, chord)
-}
-
-func (chord *Chord) String() {
-	for _, v := range(chord.Nodes){
-		fmt.Printf("pred: %d -- node: %d -- succ %d\n", v.Predecessor.Id, v.Id, v.FingerTable.fingerNode[0].Id)
-	}
+func (c Chord) bootstrapNode() *Node {
+	source := rand.NewSource(time.Now().UnixNano())
+	rng := rand.New(source)
+	entry := c.Nodes[rng.Intn(len(c.Nodes))]
+	return entry
 }

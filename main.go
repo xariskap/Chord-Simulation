@@ -3,21 +3,26 @@ package main
 import (
 	"dhtchord/chord"
 	"dhtchord/utils"
-	"fmt"
 )
 
 func main() {
 
-	nodeIds := utils.Parse()
-	chordnet := chord.NewChord()
+	ipArray := utils.Parse()
+	var nodes []*chord.Node
 
-	for _, id := range nodeIds {
-		chordnet.Join(chord.NewNode(id, &chordnet), 1000)
+	for _, ip := range ipArray {
+		n := chord.NewNode(ip)
+		nodes = append(nodes, &n)
 	}
 
-	// temp := chord.NewNode(2, &chordnet)
-	// chordnet.Join(temp)
+	ring := chord.NewChord()
 
-	fmt.Println(chordnet.Nodes)
-	chordnet.String()
+	for _, node := range nodes {
+		ring.Join(node)
+	}
+
+	for _, v := range ring.Nodes {
+		v.String()
+	}
+
 }

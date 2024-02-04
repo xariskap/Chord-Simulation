@@ -7,25 +7,24 @@ import (
 	"os"
 )
 
-const HS = 512
+const HS = 1 << 9
 
-func hashFunc(data string) int {
+func Hash(data string) int {
 	hasher := sha1.New()
 	hasher.Write([]byte(data))
 	hashInt := new(big.Int).SetBytes(hasher.Sum(nil))
 	return int(hashInt.Mod(hashInt, big.NewInt(int64(HS))).Int64())
 }
 
-func Parse() []int {
-	var nodes []int
+func Parse() []string {
+	var ipArray []string
 	file, _ := os.Open("data/ip.txt")
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		ip := scanner.Text()
-		hashed := hashFunc(ip)
-		nodes = append(nodes, hashed)
+		ipArray = append(ipArray, ip)
 	}
 
-	return nodes
+	return ipArray
 }
