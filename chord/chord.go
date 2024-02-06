@@ -1,6 +1,7 @@
 package chord
 
 import (
+	"fmt"
 	"math/rand"
 	"time"
 )
@@ -14,28 +15,63 @@ func NewChord() Chord {
 }
 
 func (c *Chord) Join(n *Node) {
+	
+	// c.Initialize(n)
+	
+	// if len(c.Nodes) >= 2{
+
+	// 	n.InitFingerTable()
+	// 	bootstrap := c.bootstrapNode()
+	// 	successor := bootstrap.FindSuccessor(n.Id)
+	// 	n.FingerTable[0].Successor = successor
+	// 	n.Stabilize()
+	// 	n.Notify()
+	// 	n.FixFingers()
+	// }
+
+	// c.Nodes = append(c.Nodes, n)
+
 	if len(c.Nodes) == 0 {
 		n.Predecessor = n
-		for i := 0; i < KS; i++ {
-			n.FingerTable[i] = Finger{(n.Id + pow(2, i)) % HS, n}
-		}
-
+		n.Fingers()
+		// n.InitFingerTable(n)
 	} else {
-		n.InitFingerTable()
 		bootstrap := c.bootstrapNode()
-		succ := bootstrap.FindSuccessor(n.Id)
-		n.FingerTable[0].Successor = succ
-		n.Stabilize()
-		n.Notify()
-		n.FixFingers()
+		n.InitFingerTable(bootstrap)
+		//n.UpdateOthers()
 	}
 
 	c.Nodes = append(c.Nodes, n)
+
+
+
 }
 
+// func (c *Chord) Initialize(n *Node) {
+// 	if len(c.Nodes) == 0 {
+// 		n.Predecessor = n
+// 		n.InitFingerTable()
+// 	} else if len(c.Nodes) == 1 {
+// 		n.InitFingerTable()
+// 		successor := c.Nodes[0]
+// 		successor.FingerTable[0].Successor = n
+// 		n.FingerTable[0].Successor = successor
+// 		n.Stabilize()
+// 		n.Notify()
+// 		n.FixFingers()
+// 		successor.FixFingers()
+// 	}
+// }
+
 func (c Chord) bootstrapNode() *Node {
-	source := rand.NewSource(time.Now().UnixNano())
-	rng := rand.New(source)
-	entry := c.Nodes[rng.Intn(len(c.Nodes))]
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+	randomIndex := r.Intn(len(c.Nodes))
+	entry := c.Nodes[randomIndex]
 	return entry
+}
+
+func (c Chord) String() {
+	for _, v := range c.Nodes {
+		fmt.Printf("Node: %v, Predecessor %v, Successor %v \n", v.Id, v.Predecessor.Id, v.FingerTable[0].Successor.Id)
+	}
 }

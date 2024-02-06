@@ -2,7 +2,6 @@ package chord
 
 import (
 	"dhtchord/utils"
-	"fmt"
 	"math"
 )
 
@@ -28,6 +27,23 @@ func InRange(key, start, end int) bool {
 	return dist(start, end) > dist(key, end)
 }
 
+func distExclusive(start, end int) int {
+	if start < end {
+		return end - start
+	} else {
+		return end + HS - start
+	}
+}
+
+// returns True if key is in (start, end)
+func InRangeExclusive(key, start, end int) bool {
+	return distExclusive(start, end) > dist(key, end)
+}
+
+func NotInRangeExclusive(key, start, end int) bool {
+	return distExclusive(start, end) < dist(key, end)
+}
+
 type Finger struct {
 	Start     int
 	Successor *Node
@@ -45,37 +61,97 @@ func NewNode(ip string) Node {
 	return Node{ip, utils.Hash(ip), make(map[int][]string), make([]Finger, KS), nil}
 }
 
-func (n *Node) InitFingerTable() {
-	for i := 0; i < KS; i++ {
-		num := (n.Id + pow(2, i)) % HS
-		n.FingerTable[i] = Finger{num, n}
-	}
-}
+// func (n *Node) InitFingerTable() {
+// 	for i := 0; i < KS; i++ {
+// 		num := (n.Id + pow(2, i)) % HS
+// 		n.FingerTable[i] = Finger{num, n}
+// 	}
+
+// 	n.FixFingers()
+// }
+
+// func (n *Node) FindSuccessor(id int) *Node {
+// 	if n.Id == n.FingerTable[0].Successor.Id {
+// 		return n
+// 	}
+
+// 	if n.Predecessor != nil && InRange(id, n.Predecessor.Id, n.Id) {
+// 		return n
+// 	}
+
+// 	if InRange(id, n.Id, n.FingerTable[0].Successor.Id) {
+// 		return n.FingerTable[0].Successor
+// 	} else {
+// 		n0 := n.ClosestPrecedingNode(id)
+// 		return n0.FindSuccessor(id)
+// 	}
+// }
+
+// func (n *Node) ClosestPrecedingNode(id int) *Node {
+// 	for i := KS - 1; i >= 0; i-- {
+// 		if InRangeExclusive(n.FingerTable[i].Successor.Id, n.Id, id) {
+// 			return n.FingerTable[i].Successor
+// 		}
+// 	}
+// 	return n
+// }
 
 func (n *Node) FindSuccessor(id int) *Node {
-	if n.Id == n.FingerTable[0].Successor.Id {
-		return n
+	predecessor := n.FindPredecessor(id)
+	return predecessor.FingerTable[0].Successor
+}
+
+func (n *Node) FindPredecessor(id int) *Node {
+	current := n
+	for NotInRangeExclusive(id, current.Id, current.FingerTable[0].Successor.Id) {
+		current = current.ClosestPrecedingFinger(id)
+	}
+	return current
+}
+
+func (n *Node) ClosestPrecedingFinger(id int) *Node {
+	for i:= KS -1; i >= 0; i-- {
+		if InRangeExclusive(n.FingerTable[i].Successor.Id, n.Id, id){
+			return n.FingerTable[i].Successor
+		}  
+	}
+	return n
+}
+
+func (n *Node) InitFingerTable(bootstarp *Node){
+	for i:= 0; i < KS; i++ {
+		n.FingerTable[i].Start = (n.Id + pow(2, i)) % HS
 	}
 
-	if n.Predecessor != nil && InRange(id, n.Predecessor.Id, n.Id) {
-		return n
-	}
+	n.FingerTable[0].Successor = bootstarp.FindSuccessor(n.FingerTable[0].Start)
+	successor := n.FingerTable[0].Successor
+	predecessor := successor.Predecessor
+	n.Predecessor = predecessor
+	successor.Predecessor = n
+	predecessor.FingerTable[0].Successor = n
 
-	if InRange(id, n.Id, n.FingerTable[0].Successor.Id) {
-		return n.FingerTable[0].Successor
-	} else {
-		n0 := n.ClosestPrecedingNode(id)
-		return n0.FindSuccessor(id)
+	for i:= 0; i < KS - 1; i++ {
+		if InRangeExclusive(n.FingerTable[i+1].Start, n.Id, n.FingerTable[i].Successor.Id){
+			n.FingerTable[i+1].Successor = n.FingerTable[i].Successor
+		} else {
+			n.FingerTable[i+1].Successor = bootstarp.FindSuccessor(n.FingerTable[i+1].Start)
+		}
 	}
 }
 
-func (n *Node) ClosestPrecedingNode(id int) *Node {
-	for i := KS - 1; i >= 0; i-- {
-		if InRange(n.FingerTable[i].Successor.Id, n.Id, id) {
-			return n.FingerTable[i].Successor
-		}
+func (n *Node) UpdateOthers() {
+	for i:= 0; i < KS; i++ {
+		pred := n.FindPredecessor(n.Id - (pow(2, i) % HS))
+		pred.UpdateFingerTable(n , i)
 	}
-	return n
+}
+
+func (n *Node) UpdateFingerTable(ni *Node, i int) {
+	if InRangeExclusive(ni.Id, n.Id, n.FingerTable[i].Successor.Id){
+		n.FingerTable[i].Successor = n
+		pred := n.Predecessor
+		pred.UpdateFingerTable(n, i)
+	}
 }
 
 func (n *Node) Notify() {
@@ -94,6 +170,9 @@ func (n *Node) FixFingers() {
 	}
 }
 
-func (n *Node) String() {
-	fmt.Printf("Node: %v, Predecessor %v, Successor %v \n", n.Id, n.Predecessor.Id, n.FingerTable[0].Successor.Id)
+func (n *Node) Fingers() {
+	for i := 0; i < KS; i++ {
+		n.FingerTable[i].Start = (n.Id + pow(2, i)) % HS
+		n.FingerTable[i].Successor = n
+	}
 }

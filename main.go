@@ -8,21 +8,14 @@ import (
 func main() {
 
 	ipArray := utils.Parse()
-	var nodes []*chord.Node
-
-	for _, ip := range ipArray {
-		n := chord.NewNode(ip)
-		nodes = append(nodes, &n)
-	}
-
 	ring := chord.NewChord()
 
-	for _, node := range nodes {
-		ring.Join(node)
+	// Building the network
+	for _, ip := range ipArray {
+		node := chord.NewNode(ip)
+		ring.Join(&node)
 	}
 
-	for _, v := range ring.Nodes {
-		v.String()
-	}
+	ring.String()
 
 }
