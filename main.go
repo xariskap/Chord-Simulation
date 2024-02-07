@@ -8,6 +8,7 @@ import (
 
 func main() {
 
+	scientists := utils.JsonToStuct("data/dataset.json")
 	ipArray := utils.Parse()
 	ring := chord.NewChord()
 
@@ -20,13 +21,18 @@ func main() {
 		if len(ring.Nodes)%5 == 0 {
 			for _, node := range ring.Nodes {
 				node.FixFingers()
-			}}
+			}
 		}
-	
-		ring.String()
-
-	for _,v := range(ring.Nodes[5].FingerTable){
-		fmt.Println(v.Start, v.Successor.Id)
 	}
 
+	ring.ImportData(scientists)
+
+	ring.Nodes[9].String()
+	fmt.Println("------------------------------------")
+	ring.Nodes[8].String()
+	fmt.Println(len(ring.Nodes))
+	ring.Leave(ring.Nodes[8])
+	fmt.Println("------------------------------------")
+	ring.Nodes[8].String()
+	fmt.Println(len(ring.Nodes))
 }

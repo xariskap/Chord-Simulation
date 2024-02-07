@@ -3,12 +3,20 @@ package utils
 import (
 	"bufio"
 	"crypto/sha1"
+	"encoding/json"
+	"fmt"
+	"math"
 	"math/big"
 	"os"
-	"math"
 )
 
 const HS = 1 << 9
+
+type Scientist struct {
+	Education   string
+	Name        string
+	NumOfAwards string
+}
 
 func Hash(data string) int {
 	hasher := sha1.New()
@@ -30,6 +38,23 @@ func Parse() []string {
 	return ipArray
 }
 
+func JsonToStuct(filePath string) []Scientist {
+
+	jsonData, err := os.ReadFile(filePath)
+	if err != nil {
+		fmt.Println("Error reading file:", err)
+		os.Exit(0)
+	}
+
+	var scientists []Scientist
+
+	err = json.Unmarshal(jsonData, &scientists)
+	if err != nil {
+		fmt.Println("Error:", err)
+		os.Exit(0)
+	}
+	return scientists
+}
 
 func Pow(x, y int) int {
 	return int(math.Pow(float64(x), float64(y)))

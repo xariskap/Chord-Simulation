@@ -1,6 +1,7 @@
 package chord
 
 import (
+	"dhtchord/utils"
 	"fmt"
 	"math/rand"
 	"time"
@@ -23,17 +24,39 @@ func (c *Chord) Join(n *Node) {
 		bootstrap := c.bootstrapNode()
 		n.InitFingerTable(bootstrap)
 		n.UpdateOthers()
+		n.FetchData(n.FingerTable[0].Successor)
 	}
 
 	c.Nodes = append(c.Nodes, n)
 }
 
-// returns a random node of the network
+func (c *Chord) Leave(n *Node) {
+	n.Leave()
+	for i, node := range c.Nodes{
+		if node.Id == n.Id{
+			c.Nodes = append(c.Nodes[:i], c.Nodes[i+1:]...)
+		}
+	}
+}
+
+// Returns a random node of the network
 func (c Chord) bootstrapNode() *Node {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	randomIndex := r.Intn(len(c.Nodes))
 	entry := c.Nodes[randomIndex]
 	return entry
+}
+
+// When joining, import from the successor the keys that node n is responsible for
+func (c Chord) ImportData(data []utils.Scientist) {
+	var value [2]string
+	for _, s := range data {
+		id := utils.Hash(s.Education)
+		value[0], value[1] = s.Name, s.NumOfAwards
+		bootstrap := c.bootstrapNode()
+		idSuccessor := bootstrap.FindSuccessor(id)
+		idSuccessor.Data[id] = append(idSuccessor.Data[id], value)
+	}
 }
 
 func (c Chord) String() {
