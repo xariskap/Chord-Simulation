@@ -16,8 +16,8 @@ func main() {
 		node := chord.NewNode(ip)
 		ring.Join(&node)
 
-
-		if len(ring.Nodes)%9 == 0 {
+		// Periodically fix fingers
+		if len(ring.Nodes)%5 == 0 {
 			for _, node := range ring.Nodes {
 				node.FixFingers()
 			}}

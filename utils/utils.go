@@ -5,6 +5,7 @@ import (
 	"crypto/sha1"
 	"math/big"
 	"os"
+	"math"
 )
 
 const HS = 1 << 9
@@ -27,4 +28,39 @@ func Parse() []string {
 	}
 
 	return ipArray
+}
+
+
+func Pow(x, y int) int {
+	return int(math.Pow(float64(x), float64(y)))
+}
+
+func Dist(start, end int) int {
+	if start <= end {
+		return end - start
+	} else {
+		return end + HS - start
+	}
+}
+
+// returns True if key is in (start, end]
+func InRange(key, start, end int) bool {
+	return Dist(start, end) > Dist(key, end)
+}
+
+func DistExclusive(start, end int) int {
+	if start < end {
+		return end - start
+	} else {
+		return end + HS - start
+	}
+}
+
+// returns True if key is in (start, end)
+func InRangeExclusive(key, start, end int) bool {
+	return DistExclusive(start, end) > DistExclusive(key, end)
+}
+
+func NotInRangeExclusive(key, start, end int) bool {
+	return DistExclusive(start, end) < Dist(key, end)
 }

@@ -14,9 +14,8 @@ func NewChord() Chord {
 	return Chord{make([]*Node, 0)}
 }
 
+// Node n joins the ring
 func (c *Chord) Join(n *Node) {
-
-
 	if len(c.Nodes) == 0 {
 		n.Predecessor = n
 		n.InitFingerTable(n)
@@ -27,9 +26,9 @@ func (c *Chord) Join(n *Node) {
 	}
 
 	c.Nodes = append(c.Nodes, n)
-
 }
 
+// returns a random node of the network
 func (c Chord) bootstrapNode() *Node {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	randomIndex := r.Intn(len(c.Nodes))
