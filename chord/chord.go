@@ -4,6 +4,7 @@ import (
 	"dhtchord/utils"
 	"fmt"
 	"math/rand"
+	"strconv"
 	"time"
 )
 
@@ -34,8 +35,8 @@ func (c *Chord) Join(n *Node) {
 func (c *Chord) Leave(n *Node) {
 	n.Leave()
 
-	for i, node := range c.Nodes{
-		if node.Id == n.Id{
+	for i, node := range c.Nodes {
+		if node.Id == n.Id {
 			c.Nodes = append(c.Nodes[:i], c.Nodes[i+1:]...)
 		}
 	}
@@ -52,23 +53,29 @@ func (c Chord) bootstrapNode() *Node {
 // When joining, import from the successor the keys that node n is responsible for
 func (c Chord) ImportData(data []utils.Scientist) {
 	var value [2]string
+	numOfAwards := []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
 	for _, s := range data {
 		id := utils.Hash(s.Education)
-		value[0], value[1] = s.Name, s.NumOfAwards
+		value[0], value[1] = s.Name, numOfAwards[rand.Intn(len(numOfAwards))]
 		bootstrap := c.bootstrapNode()
 		idSuccessor := bootstrap.FindSuccessor(id)
 		idSuccessor.Data[id] = append(idSuccessor.Data[id], value)
 	}
 }
 
-func (c Chord) Query(edu string){
+func (c Chord) Query(edu string, awards int) {
 	id := utils.Hash(edu)
 	bootstrap := c.bootstrapNode()
 	idSuccessor := bootstrap.FindSuccessor(id)
-	fmt.Println(idSuccessor.Data[id])
+	for _, val := range idSuccessor.Data[id] {
+		number, _ := strconv.Atoi(val[1])
+		if number >= awards {
+			fmt.Println(val)
+		}
+	}
 }
 
-func (c Chord) Lookup(id int) bool{
+func (c Chord) Lookup(id int) bool {
 	bootstrap := c.bootstrapNode()
 	idSuccessor := bootstrap.FindSuccessor(id)
 	return idSuccessor.Id == id
@@ -91,7 +98,7 @@ func (ring Chord) Demo() {
 	fmt.Println("Node", ring.Nodes[8].Id, "leaves the ring...")
 	id := ring.Nodes[8].Id
 	ring.Leave(ring.Nodes[8])
-	fmt.Println("Lookup for node", id,":", ring.Lookup(id))
+	fmt.Println("Lookup for node", id, ":", ring.Lookup(id))
 	fmt.Println("")
 	ring.String()
 	fmt.Println("")
@@ -101,7 +108,7 @@ func (ring Chord) Demo() {
 	node := NewNode("10.10.20.30:5432")
 	ring.Join(&node)
 	fmt.Println("Node", ring.Nodes[9].Id, "enters the ring...")
-	fmt.Println("Lookup for node", id,":", ring.Lookup(id))
+	fmt.Println("Lookup for node", id, ":", ring.Lookup(id))
 	fmt.Println("Printing node ", ring.Nodes[9].Id)
 	ring.Nodes[9].String()
 	fmt.Println("Printing node ", ring.Nodes[8].Id)

@@ -27,4 +27,5 @@ func main() {
 	ring.ImportData(scientists)
 
 	ring.Demo()
+	ring.Query("CEID", 0)
 }

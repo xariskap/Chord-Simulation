@@ -15,7 +15,7 @@ const HS = 1 << 9
 type Scientist struct {
 	Education   string
 	Name        string
-	NumOfAwards string
+	NumOfAwards int
 }
 
 func Hash(data string) int {
