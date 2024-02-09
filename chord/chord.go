@@ -53,10 +53,9 @@ func (c Chord) bootstrapNode() *Node {
 // When joining, import from the successor the keys that node n is responsible for
 func (c Chord) ImportData(data []utils.Scientist) {
 	var value [2]string
-	numOfAwards := []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
 	for _, s := range data {
 		id := utils.Hash(s.Education)
-		value[0], value[1] = s.Name, numOfAwards[rand.Intn(len(numOfAwards))]
+		value[0], value[1] = s.Name, strconv.Itoa(rand.Intn(10))
 		bootstrap := c.bootstrapNode()
 		idSuccessor := bootstrap.FindSuccessor(id)
 		idSuccessor.Data[id] = append(idSuccessor.Data[id], value)
