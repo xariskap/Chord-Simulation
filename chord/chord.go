@@ -30,8 +30,10 @@ func (c *Chord) Join(n *Node) {
 	c.Nodes = append(c.Nodes, n)
 }
 
+// Node n leaves the ring and passes the data to the immediate successor
 func (c *Chord) Leave(n *Node) {
 	n.Leave()
+
 	for i, node := range c.Nodes{
 		if node.Id == n.Id{
 			c.Nodes = append(c.Nodes[:i], c.Nodes[i+1:]...)
@@ -59,8 +61,51 @@ func (c Chord) ImportData(data []utils.Scientist) {
 	}
 }
 
+func (c Chord) Query(edu string){
+	id := utils.Hash(edu)
+	bootstrap := c.bootstrapNode()
+	idSuccessor := bootstrap.FindSuccessor(id)
+	fmt.Println(idSuccessor.Data[id])
+}
+
+func (c Chord) Lookup(id int) bool{
+	bootstrap := c.bootstrapNode()
+	idSuccessor := bootstrap.FindSuccessor(id)
+	return idSuccessor.Id == id
+}
+
 func (c Chord) String() {
 	for _, v := range c.Nodes {
 		fmt.Printf("Node: %v, Predecessor %v, Successor %v \n", v.Id, v.Predecessor.Id, v.FingerTable[0].Successor.Id)
 	}
+}
+
+func (ring Chord) Demo() {
+	ring.String()
+	fmt.Println("")
+	fmt.Println("Printing node ", ring.Nodes[8].Id)
+	ring.Nodes[8].String()
+	fmt.Println("Printing node ", ring.Nodes[9].Id)
+	ring.Nodes[9].String()
+	fmt.Println("---------------------------------------------")
+	fmt.Println("Node", ring.Nodes[8].Id, "leaves the ring...")
+	id := ring.Nodes[8].Id
+	ring.Leave(ring.Nodes[8])
+	fmt.Println("Lookup for node", id,":", ring.Lookup(id))
+	fmt.Println("")
+	ring.String()
+	fmt.Println("")
+	fmt.Println("Printing node ", ring.Nodes[8].Id)
+	ring.Nodes[8].String()
+	fmt.Println("---------------------------------------------")
+	node := NewNode("10.10.20.30:5432")
+	ring.Join(&node)
+	fmt.Println("Node", ring.Nodes[9].Id, "enters the ring...")
+	fmt.Println("Lookup for node", id,":", ring.Lookup(id))
+	fmt.Println("Printing node ", ring.Nodes[9].Id)
+	ring.Nodes[9].String()
+	fmt.Println("Printing node ", ring.Nodes[8].Id)
+	ring.Nodes[8].String()
+	fmt.Println("")
+	ring.String()
 }

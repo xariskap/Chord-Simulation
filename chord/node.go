@@ -122,9 +122,11 @@ func (n *Node) Leave() {
 }
 
 func (n *Node) String() {
-	fmt.Printf("Node id: %v\n", n.Id)
-	fmt.Printf("Predecessor: %v\n", n.Predecessor.Id)
-	for key, value := range n.Data {
-        fmt.Printf("%v: %v\n", key, value)
+	fmt.Printf("Node id: %v | Predecessor id: %v | Successor id: %v\n", n.Id, n.Predecessor.Id, n.FingerTable[0].Successor.Id)
+	fmt.Print("Data ids: ")
+	for key := range n.Data {
+        fmt.Print(key, " ")
     }
+	fmt.Println("")
+	fmt.Println("")
 }

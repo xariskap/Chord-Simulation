@@ -3,7 +3,6 @@ package main
 import (
 	"dhtchord/chord"
 	"dhtchord/utils"
-	"fmt"
 )
 
 func main() {
@@ -27,12 +26,5 @@ func main() {
 
 	ring.ImportData(scientists)
 
-	ring.Nodes[9].String()
-	fmt.Println("------------------------------------")
-	ring.Nodes[8].String()
-	fmt.Println(len(ring.Nodes))
-	ring.Leave(ring.Nodes[8])
-	fmt.Println("------------------------------------")
-	ring.Nodes[8].String()
-	fmt.Println(len(ring.Nodes))
+	ring.Demo()
 }
