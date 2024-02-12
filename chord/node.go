@@ -10,6 +10,8 @@ const (
 	HS int = 1 << KS
 )
 
+var Messages []int // used for metrics
+
 type Finger struct {
 	Start     int
 	Successor *Node
@@ -34,9 +36,12 @@ func (n *Node) FindSuccessor(id int) *Node {
 
 func (n *Node) findPredecessor(id int) *Node {
 	current := n
+	hops := 1 // used for metrics
 	for utils.NotInRangeExclusive(id, current.Id, current.FingerTable[0].Successor.Id) {
 		current = current.closestPrecedingFinger(id)
+		hops += 1 // used for metrics
 	}
+	Messages = append(Messages, hops) // used for metrics
 	return current
 }
 

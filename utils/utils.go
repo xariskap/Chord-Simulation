@@ -25,9 +25,9 @@ func Hash(data string) int {
 	return int(hashInt.Mod(hashInt, big.NewInt(int64(HS))).Int64())
 }
 
-func Parse() []string {
+func Parse(filePath string) []string {
 	var ipArray []string
-	file, _ := os.Open("data/ip.txt")
+	file, _ := os.Open(filePath)
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {

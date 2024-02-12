@@ -4,6 +4,7 @@ import (
 	"dhtchord/utils"
 	"fmt"
 	"math/rand"
+	"sort"
 	"strconv"
 	"time"
 )
@@ -114,4 +115,7 @@ func (ring Chord) Demo() {
 	ring.Nodes[8].String()
 	fmt.Println("")
 	ring.String()
+	fmt.Println("")
+	sort.Ints(Messages)
+//	fmt.Println(Messages[len(Messages)-1])
 }
