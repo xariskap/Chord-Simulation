@@ -29,11 +29,13 @@ func NewNode(ip string) Node {
 	return Node{ip, utils.Hash(ip), make(map[int][][2]string), make([]Finger, KS), nil}
 }
 
+// Finds the Successor of id
 func (n *Node) FindSuccessor(id int) *Node {
 	predecessor := n.findPredecessor(id)
 	return predecessor.FingerTable[0].Successor
 }
 
+// Finds the Predecessor of id
 func (n *Node) findPredecessor(id int) *Node {
 	current := n
 	hops := 1 // used for metrics
@@ -45,6 +47,7 @@ func (n *Node) findPredecessor(id int) *Node {
 	return current
 }
 
+// Find the closest finger that precedes id
 func (n *Node) closestPrecedingFinger(id int) *Node {
 	for i := KS - 1; i >= 0; i-- {
 		if utils.InRangeExclusive(n.FingerTable[i].Successor.Id, n.Id, id) {
@@ -54,13 +57,14 @@ func (n *Node) closestPrecedingFinger(id int) *Node {
 	return n
 }
 
-func (n *Node) InitFingerTable(bootstarp *Node) {
+// Initializes the finger table of node n
+func (n *Node) InitFingerTable(bootstrap *Node) {
 	for i := 0; i < KS; i++ {
 		n.FingerTable[i].Start = (n.Id + utils.Pow(2, i)) % HS
 		n.FingerTable[i].Successor = n
 	}
 
-	n.FingerTable[0].Successor = bootstarp.FindSuccessor(n.FingerTable[0].Start)
+	n.FingerTable[0].Successor = bootstrap.FindSuccessor(n.FingerTable[0].Start)
 	successor := n.FingerTable[0].Successor
 	predecessor := successor.Predecessor
 	n.Predecessor = predecessor
@@ -71,11 +75,12 @@ func (n *Node) InitFingerTable(bootstarp *Node) {
 		if utils.InRangeExclusive(n.FingerTable[i+1].Start, n.Id, n.FingerTable[i].Successor.Id) {
 			n.FingerTable[i+1].Successor = n.FingerTable[i].Successor
 		} else {
-			n.FingerTable[i+1].Successor = bootstarp.FindSuccessor(n.FingerTable[i+1].Start)
+			n.FingerTable[i+1].Successor = bootstrap.FindSuccessor(n.FingerTable[i+1].Start)
 		}
 	}
 }
 
+// Updates the finger table of previous nodes
 func (n *Node) UpdateOthers() {
 	for i := 0; i < KS; i++ {
 		pred := n.findPredecessor(utils.DistExclusive(n.Id, utils.Pow(2, i)))
@@ -97,6 +102,7 @@ func (n *Node) FixFingers() {
 	}
 }
 
+// When joining, import from the successor the keys that node n is responsible for
 func (n *Node) FetchData(n0 *Node) {
 	if len(n0.Data) > 0 {
 		for id := range n0.Data {
@@ -108,6 +114,7 @@ func (n *Node) FetchData(n0 *Node) {
 	}
 }
 
+// When leaving, move the keys (data) to successor
 func (n *Node) MoveData(n0 *Node) {
 	for i := range n.Data{
 		n0.Data[i] = n.Data[i]
@@ -115,15 +122,15 @@ func (n *Node) MoveData(n0 *Node) {
 }
 
 func (n *Node) Leave() {
-	sucessor := n.FingerTable[0].Successor
+	successor := n.FingerTable[0].Successor
 	predecessor := n.Predecessor
-	sucessor.Predecessor = predecessor
-	predecessor.FingerTable[0].Successor = sucessor
+	successor.Predecessor = predecessor
+	predecessor.FingerTable[0].Successor = successor
 	
 	predecessor.FixFingers()
-	sucessor.UpdateOthers()
+	successor.UpdateOthers()
 
-	n.MoveData(sucessor)
+	n.MoveData(successor)
 }
 
 func (n *Node) String() {

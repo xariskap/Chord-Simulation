@@ -39,7 +39,6 @@ func Parse(filePath string) []string {
 }
 
 func JsonToStuct(filePath string) []Scientist {
-
 	jsonData, err := os.ReadFile(filePath)
 	if err != nil {
 		fmt.Println("Error reading file:", err)
@@ -68,11 +67,6 @@ func Dist(start, end int) int {
 	}
 }
 
-// returns True if key is in (start, end]
-func InRange(key, start, end int) bool {
-	return Dist(start, end) > Dist(key, end)
-}
-
 func DistExclusive(start, end int) int {
 	if start < end {
 		return end - start
@@ -81,11 +75,17 @@ func DistExclusive(start, end int) int {
 	}
 }
 
+// returns True if key is in (start, end]
+	func InRange(key, start, end int) bool {
+		return Dist(start, end) > Dist(key, end)
+	}
+
 // returns True if key is in (start, end)
 func InRangeExclusive(key, start, end int) bool {
 	return DistExclusive(start, end) > DistExclusive(key, end)
 }
 
+// returns True if key is NOT in (start, end)
 func NotInRangeExclusive(key, start, end int) bool {
 	return DistExclusive(start, end) < Dist(key, end)
 }

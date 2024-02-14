@@ -18,12 +18,26 @@ var table = []struct {
 }
 
 var ipArray = utils.Parse("data/test_ip.txt")
-var ring = chord.NewChord()
+var c = chord.NewChord()
+
+var ch = chord.NewChord()
+var fullRing = GetRing(ipArray, &ch)
 
 func BenchmarkJoin(b *testing.B) {
 	for _, v := range table {
-		b.Run(fmt.Sprintf("input_size_%d", v.input), func(b *testing.B) {
-			build(ipArray[:v.input], &ring)
+		b.Run(fmt.Sprintf("input_size_%v", v.input), func(b *testing.B) {
+			c = chord.NewChord()
+			build(ipArray[:v.input], &c)
+		})
+	}
+}
+
+func BenchmarkLookup(b *testing.B) {
+	for _, v := range table {
+		b.Run(fmt.Sprintf("input size %v", v.input), func(b *testing.B) {
+			for i := 0; i < v.input; i++ {
+				fullRing.Lookup(fullRing.Nodes[i].Id)
+			}
 		})
 	}
 }

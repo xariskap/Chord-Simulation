@@ -4,7 +4,6 @@ import (
 	"dhtchord/utils"
 	"fmt"
 	"math/rand"
-	"sort"
 	"strconv"
 	"time"
 )
@@ -51,7 +50,6 @@ func (c Chord) bootstrapNode() *Node {
 	return entry
 }
 
-// When joining, import from the successor the keys that node n is responsible for
 func (c Chord) ImportData(data []utils.Scientist) {
 	var value [2]string
 	for _, s := range data {
@@ -69,7 +67,7 @@ func (c Chord) Query(edu string, awards int) {
 	idSuccessor := bootstrap.FindSuccessor(id)
 	for _, val := range idSuccessor.Data[id] {
 		number, _ := strconv.Atoi(val[1])
-		if number >= awards {
+		if number > awards {
 			fmt.Println(val)
 		}
 	}
@@ -116,6 +114,14 @@ func (ring Chord) Demo() {
 	fmt.Println("")
 	ring.String()
 	fmt.Println("")
-	sort.Ints(Messages)
-//	fmt.Println(Messages[len(Messages)-1])
+
+	hops := make(map[int]int)
+	for _, v := range Messages {
+		hops[v] += 1
+	}
+
+	for k, v := range hops{
+		fmt.Printf("Number of hops: %v with %v occurrences\n", k, v)
+	}
+	fmt.Println("")
 }
