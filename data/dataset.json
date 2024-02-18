@@ -1,0 +1,3422 @@
+[
+  {
+    "education": "London Business School",
+    "name": "Atta ur Rehman Khan",
+    "awards": "7"
+  },
+  {
+    "education": "University of Copenhagen",
+    "name": "Wil van der Aalst",
+    "awards": "5"
+  },
+  {
+    "education": "Columbia",
+    "name": "Scott Aaronson",
+    "awards": "6"
+  },
+  {
+    "education": "University of Melbourne",
+    "name": "Rediet Abebe",
+    "awards": "6"
+  },
+  {
+    "education": "University of Washington",
+    "name": "Hal Abelson",
+    "awards": "5"
+  },
+  {
+    "education": "University of Chicago",
+    "name": "Serge Abiteboul",
+    "awards": "7"
+  },
+  {
+    "education": "Sultan Qaboos University",
+    "name": "Samson Abramsky",
+    "awards": "5"
+  },
+  {
+    "education": "UCL",
+    "name": "Leonard Adleman",
+    "awards": "3"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "Manindra Agrawal",
+    "awards": "6"
+  },
+  {
+    "education": "University of Tokyo",
+    "name": "Luis von Ahn",
+    "awards": "1"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Alfred Aho",
+    "awards": "8"
+  },
+  {
+    "education": "Seoul National University",
+    "name": "Frances E. Allen",
+    "awards": "2"
+  },
+  {
+    "education": "University of Amsterdam",
+    "name": "Gene Amdahl",
+    "awards": "6"
+  },
+  {
+    "education": "Bosphorus University",
+    "name": "David P. Anderson",
+    "awards": "9"
+  },
+  {
+    "education": "MIT",
+    "name": "Lisa Anthony",
+    "awards": "2"
+  },
+  {
+    "education": "University of Montevideo",
+    "name": "Andrew Appel",
+    "awards": "8"
+  },
+  {
+    "education": "TU Munich",
+    "name": "Cecilia R. Aragon",
+    "awards": "9"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Bruce Arden",
+    "awards": "1"
+  },
+  {
+    "education": "University of Sydney",
+    "name": "Angie Jones",
+    "awards": "2"
+  },
+  {
+    "education": "Seoul National University",
+    "name": "Sanjeev Arora",
+    "awards": "5"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Winifred \"Tim\" Alice Asprey",
+    "awards": "8"
+  },
+  {
+    "education": "TU Munich",
+    "name": "John Vincent Atanasoff",
+    "awards": "2"
+  },
+  {
+    "education": "University of Guyana",
+    "name": "Shakuntala Atre",
+    "awards": "9"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Charles Babbage",
+    "awards": "2"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Charles Bachman",
+    "awards": "6"
+  },
+  {
+    "education": "Kuwait University",
+    "name": "Roland Carl Backhouse",
+    "awards": "6"
+  },
+  {
+    "education": "INSEAD",
+    "name": "John Backus",
+    "awards": "2"
+  },
+  {
+    "education": "UCSD",
+    "name": "David F. Bacon",
+    "awards": "6"
+  },
+  {
+    "education": "University of Edinburgh",
+    "name": "David Bader",
+    "awards": "4"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "Victor Bahl",
+    "awards": "6"
+  },
+  {
+    "education": "Seoul National University",
+    "name": "Anthony James Barr",
+    "awards": "9"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Jean Bartik",
+    "awards": "6"
+  },
+  {
+    "education": "Stanford",
+    "name": "Andrew Barto",
+    "awards": "3"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "Friedrich L. Bauer",
+    "awards": "7"
+  },
+  {
+    "education": "UCSD",
+    "name": "Rudolf Bayer",
+    "awards": "3"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "Gordon Bell",
+    "awards": "8"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Steven M. Bellovin",
+    "awards": "6"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "Cecilia Berdichevsky",
+    "awards": "9"
+  },
+  {
+    "education": "King Saud University",
+    "name": "Tim Berners-Lee",
+    "awards": "9"
+  },
+  {
+    "education": "University of Amsterdam",
+    "name": "Daniel J. Bernstein",
+    "awards": "6"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Peter Bernus",
+    "awards": "9"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Abhay Bhushan",
+    "awards": "2"
+  },
+  {
+    "education": "University of Vienna",
+    "name": "Dines Bjørner",
+    "awards": "1"
+  },
+  {
+    "education": "University of Vienna",
+    "name": "Gerrit Blaauw",
+    "awards": "6"
+  },
+  {
+    "education": "Columbia",
+    "name": "Sue Black",
+    "awards": "3"
+  },
+  {
+    "education": "UCLA",
+    "name": "David Blei",
+    "awards": "4"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Dorothy Blum",
+    "awards": "5"
+  },
+  {
+    "education": "UC Berkeley",
+    "name": "Lenore Blum",
+    "awards": "0"
+  },
+  {
+    "education": "TU Munich",
+    "name": "Manuel Blum",
+    "awards": "0"
+  },
+  {
+    "education": "Seoul National University",
+    "name": "Barry Boehm",
+    "awards": "0"
+  },
+  {
+    "education": "UCLA",
+    "name": "Corrado Böhm",
+    "awards": "7"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Kurt Bollacker",
+    "awards": "7"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "Jeff Bonwick",
+    "awards": "0"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "Grady Booch",
+    "awards": "7"
+  },
+  {
+    "education": "Moscow State University",
+    "name": "George Boole",
+    "awards": "4"
+  },
+  {
+    "education": "Moscow State University",
+    "name": "Andrew Booth",
+    "awards": "8"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Kathleen Booth",
+    "awards": "6"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Anita Borg",
+    "awards": "5"
+  },
+  {
+    "education": "University of Oxford",
+    "name": "Bert Bos",
+    "awards": "0"
+  },
+  {
+    "education": "University of Amsterdam",
+    "name": "Mikhail Botvinnik",
+    "awards": "1"
+  },
+  {
+    "education": "Kuwait University",
+    "name": "Jonathan Bowen",
+    "awards": "4"
+  },
+  {
+    "education": "University of Hong Kong",
+    "name": "Stephen R. Bourne",
+    "awards": "3"
+  },
+  {
+    "education": "NUS",
+    "name": "Harry Bouwman",
+    "awards": "9"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Robert S. Boyer",
+    "awards": "2"
+  },
+  {
+    "education": "NUS",
+    "name": "Karlheinz Brandenburg",
+    "awards": "8"
+  },
+  {
+    "education": "CEID",
+    "name": "Gilles Brassard",
+    "awards": "2"
+  },
+  {
+    "education": "Princeton",
+    "name": "Lawrence M. Breed",
+    "awards": "5"
+  },
+  {
+    "education": "Peking University",
+    "name": "Jack E. Bresenham",
+    "awards": "2"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Sergey Brin",
+    "awards": "9"
+  },
+  {
+    "education": "Harvard",
+    "name": "David J. Brown",
+    "awards": "4"
+  },
+  {
+    "education": "University of Guyana",
+    "name": "Per Brinch Hansen",
+    "awards": "0"
+  },
+  {
+    "education": "INSEAD",
+    "name": "Sjaak Brinkkemper",
+    "awards": "2"
+  },
+  {
+    "education": "King Saud University",
+    "name": "Fred Brooks",
+    "awards": "2"
+  },
+  {
+    "education": "University of Vienna",
+    "name": "Rod Brooks",
+    "awards": "1"
+  },
+  {
+    "education": "University of Jordan",
+    "name": "Margaret Burnett",
+    "awards": "0"
+  },
+  {
+    "education": "University of Quito",
+    "name": "Michael Butler",
+    "awards": "6"
+  },
+  {
+    "education": "King Saud University",
+    "name": "Pino Caballero Gil",
+    "awards": "6"
+  },
+  {
+    "education": "LSE",
+    "name": "Tracy Camp",
+    "awards": "8"
+  },
+  {
+    "education": "TU Munich",
+    "name": "Martin Campbell-Kelly",
+    "awards": "2"
+  },
+  {
+    "education": "INSEAD",
+    "name": "Rosemary Candlin",
+    "awards": "0"
+  },
+  {
+    "education": "University of Quito",
+    "name": "Rod Canion",
+    "awards": "9"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Bryan Cantrill",
+    "awards": "9"
+  },
+  {
+    "education": "University of Edinburgh",
+    "name": "Luca Cardelli",
+    "awards": "9"
+  },
+  {
+    "education": "Seoul National University",
+    "name": "John Carmack",
+    "awards": "3"
+  },
+  {
+    "education": "University of Tokyo",
+    "name": "Michael Caspersen",
+    "awards": "3"
+  },
+  {
+    "education": "American University in Dubai",
+    "name": "Edwin Catmull",
+    "awards": "2"
+  },
+  {
+    "education": "Qatar University",
+    "name": "Vint Cerf",
+    "awards": "7"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "Gregory Chaitin",
+    "awards": "5"
+  },
+  {
+    "education": "CEID",
+    "name": "Robert Cailliau",
+    "awards": "5"
+  },
+  {
+    "education": "UCL",
+    "name": "Zhou Chaochen",
+    "awards": "7"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Peter Chen",
+    "awards": "2"
+  },
+  {
+    "education": "University of Tunis",
+    "name": "Leonardo Chiariglione",
+    "awards": "5"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "Tracy Chou",
+    "awards": "2"
+  },
+  {
+    "education": "UCSD",
+    "name": "Alonzo Church",
+    "awards": "9"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "Alberto Ciaramella",
+    "awards": "5"
+  },
+  {
+    "education": "UC San Francisco",
+    "name": "Edmund M. Clarke",
+    "awards": "2"
+  },
+  {
+    "education": "University of Montevideo",
+    "name": "John Cocke",
+    "awards": "2"
+  },
+  {
+    "education": "Australian National University",
+    "name": "Edgar F. Codd",
+    "awards": "1"
+  },
+  {
+    "education": "University of Copenhagen",
+    "name": "Jacques Cohen",
+    "awards": "2"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Ian Coldwater",
+    "awards": "7"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Simon Colton",
+    "awards": "9"
+  },
+  {
+    "education": "University of Chicago",
+    "name": "Alain Colmerauer",
+    "awards": "5"
+  },
+  {
+    "education": "University of Oxford",
+    "name": "Douglas Comer",
+    "awards": "6"
+  },
+  {
+    "education": "University of Nairobi",
+    "name": "Paul Justin Compton",
+    "awards": "6"
+  },
+  {
+    "education": "Moscow State University",
+    "name": "Richard W. Conway",
+    "awards": "3"
+  },
+  {
+    "education": "EPFL",
+    "name": "Gordon Cormack",
+    "awards": "9"
+  },
+  {
+    "education": "Harvard",
+    "name": "Stephen Cook",
+    "awards": "5"
+  },
+  {
+    "education": "UC San Francisco",
+    "name": "James Cooley",
+    "awards": "7"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Danese Cooper",
+    "awards": "3"
+  },
+  {
+    "education": "UCSD",
+    "name": "Fernando J. Corbató",
+    "awards": "8"
+  },
+  {
+    "education": "Stanford",
+    "name": "Kit Cosper",
+    "awards": "8"
+  },
+  {
+    "education": "Peking University",
+    "name": "Patrick Cousot",
+    "awards": "6"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "Ingemar Cox",
+    "awards": "6"
+  },
+  {
+    "education": "Stanford",
+    "name": "Seymour Cray",
+    "awards": "2"
+  },
+  {
+    "education": "King Saud University",
+    "name": "Nello Cristianini",
+    "awards": "9"
+  },
+  {
+    "education": "University of Quito",
+    "name": "Jon Crowcroft",
+    "awards": "5"
+  },
+  {
+    "education": "UBC",
+    "name": "W. Bruce Croft",
+    "awards": "1"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "Glen Culler",
+    "awards": "0"
+  },
+  {
+    "education": "University of Quito",
+    "name": "Haskell Curry",
+    "awards": "2"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Luigi Dadda",
+    "awards": "1"
+  },
+  {
+    "education": "Kuwait University",
+    "name": "Ole-Johan Dahl",
+    "awards": "9"
+  },
+  {
+    "education": "Yale",
+    "name": "Ryan Dahl",
+    "awards": "5"
+  },
+  {
+    "education": "CEID",
+    "name": "Andries van Dam",
+    "awards": "7"
+  },
+  {
+    "education": "Bosphorus University",
+    "name": "Samir Das",
+    "awards": "5"
+  },
+  {
+    "education": "University of Copenhagen",
+    "name": "Neil Daswani",
+    "awards": "8"
+  },
+  {
+    "education": "Harvard",
+    "name": "Christopher J. Date",
+    "awards": "6"
+  },
+  {
+    "education": "University of Amsterdam",
+    "name": "Terry A. Davis",
+    "awards": "8"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Jeff Dean",
+    "awards": "3"
+  },
+  {
+    "education": "University of Amsterdam",
+    "name": "Erik Demaine",
+    "awards": "5"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Tom DeMarco",
+    "awards": "0"
+  },
+  {
+    "education": "UIUC",
+    "name": "Richard DeMillo",
+    "awards": "0"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Dorothy E. Denning",
+    "awards": "6"
+  },
+  {
+    "education": "University of Hong Kong",
+    "name": "Peter J. Denning",
+    "awards": "6"
+  },
+  {
+    "education": "University of Vienna",
+    "name": "Michael Dertouzos",
+    "awards": "2"
+  },
+  {
+    "education": "Seoul National University",
+    "name": "Alexander Dewdney",
+    "awards": "7"
+  },
+  {
+    "education": "University of Edinburgh",
+    "name": "Robert Dewar",
+    "awards": "1"
+  },
+  {
+    "education": "University of Tunis",
+    "name": "Vinod Dham",
+    "awards": "4"
+  },
+  {
+    "education": "UBC",
+    "name": "Jan Dietz",
+    "awards": "5"
+  },
+  {
+    "education": "UC San Francisco",
+    "name": "Whitfield Diffie",
+    "awards": "3"
+  },
+  {
+    "education": "LSE",
+    "name": "Edsger W. Dijkstra",
+    "awards": "0"
+  },
+  {
+    "education": "Qatar University",
+    "name": "Matthew Dillon",
+    "awards": "5"
+  },
+  {
+    "education": "UCSD",
+    "name": "Alan Dix",
+    "awards": "2"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Jack Dongarra",
+    "awards": "5"
+  },
+  {
+    "education": "Princeton",
+    "name": "Marco Dorigo",
+    "awards": "1"
+  },
+  {
+    "education": "Columbia",
+    "name": "Paul Dourish",
+    "awards": "4"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Charles Stark Draper",
+    "awards": "9"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Susan Dumais",
+    "awards": "2"
+  },
+  {
+    "education": "American University in Dubai",
+    "name": "Adam Dunkels",
+    "awards": "9"
+  },
+  {
+    "education": "Harvard",
+    "name": "Jon Michael Dunn",
+    "awards": "9"
+  },
+  {
+    "education": "Caltech",
+    "name": "Schahram Dustdar",
+    "awards": "7"
+  },
+  {
+    "education": "Princeton",
+    "name": "Peter Eades",
+    "awards": "0"
+  },
+  {
+    "education": "University of Sydney",
+    "name": "Annie Easley",
+    "awards": "0"
+  },
+  {
+    "education": "KAIST",
+    "name": "Wim Ebbinkhuijsen",
+    "awards": "1"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "John Presper Eckert",
+    "awards": "1"
+  },
+  {
+    "education": "University of Oxford",
+    "name": "Alan Edelman",
+    "awards": "7"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Brendan Eich",
+    "awards": "7"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "Philip Emeagwali",
+    "awards": "1"
+  },
+  {
+    "education": "Columbia",
+    "name": "E. Allen Emerson",
+    "awards": "0"
+  },
+  {
+    "education": "KAIST",
+    "name": "Douglas Engelbart",
+    "awards": "1"
+  },
+  {
+    "education": "NYU",
+    "name": "Barbara Engelhardt",
+    "awards": "5"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "David Eppstein",
+    "awards": "6"
+  },
+  {
+    "education": "University of Guyana",
+    "name": "Andrey Ershov",
+    "awards": "8"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Don Estridge",
+    "awards": "8"
+  },
+  {
+    "education": "NUS",
+    "name": "Oren Etzioni",
+    "awards": "7"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Christopher Riche Evans",
+    "awards": "9"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "David C. Evans",
+    "awards": "2"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Shimon Even",
+    "awards": "3"
+  },
+  {
+    "education": "Seoul National University",
+    "name": "Scott Fahlman",
+    "awards": "1"
+  },
+  {
+    "education": "University of Quito",
+    "name": "Edward Feigenbaum",
+    "awards": "5"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Edward Felten",
+    "awards": "2"
+  },
+  {
+    "education": "Princeton",
+    "name": "Tim Finin",
+    "awards": "3"
+  },
+  {
+    "education": "Princeton",
+    "name": "Raphael Finkel",
+    "awards": "0"
+  },
+  {
+    "education": "University of Havana",
+    "name": "Donald Firesmith",
+    "awards": "8"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Gary William Flake",
+    "awards": "2"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Tommy Flowers",
+    "awards": "3"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Robert Floyd",
+    "awards": "3"
+  },
+  {
+    "education": "INSEAD",
+    "name": "Sally Floyd",
+    "awards": "5"
+  },
+  {
+    "education": "University of Tokyo",
+    "name": "Lawrence J. Fogel",
+    "awards": "1"
+  },
+  {
+    "education": "Princeton",
+    "name": "James D. Foley",
+    "awards": "2"
+  },
+  {
+    "education": "University of Edinburgh",
+    "name": "Ken Forbus",
+    "awards": "8"
+  },
+  {
+    "education": "Harvard",
+    "name": "L. R. Ford, Jr.",
+    "awards": "0"
+  },
+  {
+    "education": "IESE Business School",
+    "name": "Lance Fortnow",
+    "awards": "2"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Mahmoud Samir Fayed",
+    "awards": "2"
+  },
+  {
+    "education": "University of Melbourne",
+    "name": "Martin Fowler",
+    "awards": "8"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Robert France",
+    "awards": "9"
+  },
+  {
+    "education": "Qatar University",
+    "name": "Herbert W. Franke",
+    "awards": "1"
+  },
+  {
+    "education": "London Business School",
+    "name": "Edward Fredkin",
+    "awards": "1"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Yoav Freund",
+    "awards": "6"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Daniel P. Friedman",
+    "awards": "4"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Charlotte Froese Fischer",
+    "awards": "0"
+  },
+  {
+    "education": "Caltech",
+    "name": "Ping Fu",
+    "awards": "3"
+  },
+  {
+    "education": "Kuwait University",
+    "name": "Xiaoming Fu",
+    "awards": "3"
+  },
+  {
+    "education": "National University of Asuncion",
+    "name": "Kunihiko Fukushima",
+    "awards": "6"
+  },
+  {
+    "education": "Bosphorus University",
+    "name": "D. R. Fulkerson",
+    "awards": "5"
+  },
+  {
+    "education": "University of Lima",
+    "name": "Richard P. Gabriel",
+    "awards": "9"
+  },
+  {
+    "education": "Australian National University",
+    "name": "Zvi Galil",
+    "awards": "5"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Bernard Galler",
+    "awards": "8"
+  },
+  {
+    "education": "University of Havana",
+    "name": "Hector Garcia-Molina",
+    "awards": "4"
+  },
+  {
+    "education": "IESE Business School",
+    "name": "Michael Garey",
+    "awards": "0"
+  },
+  {
+    "education": "NYU",
+    "name": "Hugo de Garis",
+    "awards": "0"
+  },
+  {
+    "education": "London Business School",
+    "name": "Bill Gates",
+    "awards": "2"
+  },
+  {
+    "education": "TU Munich",
+    "name": "David Gelernter",
+    "awards": "6"
+  },
+  {
+    "education": "Kuwait University",
+    "name": "Lisa Gelobter",
+    "awards": "1"
+  },
+  {
+    "education": "UPenn",
+    "name": "Charles Geschke",
+    "awards": "2"
+  },
+  {
+    "education": "LSE",
+    "name": "Zoubin Ghahramani",
+    "awards": "1"
+  },
+  {
+    "education": "EPFL",
+    "name": "Sanjay Ghemawat",
+    "awards": "9"
+  },
+  {
+    "education": "University of Jordan",
+    "name": "Jeremy Gibbons",
+    "awards": "8"
+  },
+  {
+    "education": "EPFL",
+    "name": "Juan E. Gilbert",
+    "awards": "9"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Lee Giles",
+    "awards": "6"
+  },
+  {
+    "education": "University of Lima",
+    "name": "Seymour Ginsburg",
+    "awards": "1"
+  },
+  {
+    "education": "KAIST",
+    "name": "Robert L. Glass",
+    "awards": "8"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "Kurt Gödel",
+    "awards": "3"
+  },
+  {
+    "education": "University of Washington",
+    "name": "Ashok Goel",
+    "awards": "5"
+  },
+  {
+    "education": "University of Chicago",
+    "name": "Joseph Goguen",
+    "awards": "8"
+  },
+  {
+    "education": "London Business School",
+    "name": "E. Mark Gold",
+    "awards": "7"
+  },
+  {
+    "education": "American University in Dubai",
+    "name": "Adele Goldberg",
+    "awards": "6"
+  },
+  {
+    "education": "University of Quito",
+    "name": "Andrew V. Goldberg",
+    "awards": "6"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Ian Goldberg",
+    "awards": "4"
+  },
+  {
+    "education": "Yale",
+    "name": "Judy Goldsmith",
+    "awards": "4"
+  },
+  {
+    "education": "Qatar University",
+    "name": "Oded Goldreich",
+    "awards": "7"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Shafi Goldwasser",
+    "awards": "7"
+  },
+  {
+    "education": "University of Nairobi",
+    "name": "Gene Golub",
+    "awards": "3"
+  },
+  {
+    "education": "Bosphorus University",
+    "name": "Martin Charles Golumbic",
+    "awards": "4"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "Gastón Gonnet",
+    "awards": "7"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "Ian Goodfellow",
+    "awards": "3"
+  },
+  {
+    "education": "University of Copenhagen",
+    "name": "James Gosling",
+    "awards": "0"
+  },
+  {
+    "education": "Caltech",
+    "name": "Paul Graham",
+    "awards": "4"
+  },
+  {
+    "education": "NUS",
+    "name": "Robert M. Graham",
+    "awards": "6"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Susan L. Graham",
+    "awards": "3"
+  },
+  {
+    "education": "UBC",
+    "name": "Jim Gray",
+    "awards": "8"
+  },
+  {
+    "education": "United Arab Emirates University",
+    "name": "Sheila Greibach",
+    "awards": "1"
+  },
+  {
+    "education": "UCSD",
+    "name": "David Gries",
+    "awards": "7"
+  },
+  {
+    "education": "Sultan Qaboos University",
+    "name": "Ralph Griswold",
+    "awards": "8"
+  },
+  {
+    "education": "University of Copenhagen",
+    "name": "Bill Gropp",
+    "awards": "1"
+  },
+  {
+    "education": "UC Berkeley",
+    "name": "Tom Gruber",
+    "awards": "3"
+  },
+  {
+    "education": "UC Berkeley",
+    "name": "Shelia Guberman",
+    "awards": "1"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "Ramanathan V. Guha",
+    "awards": "8"
+  },
+  {
+    "education": "Kuwait University",
+    "name": "Neil J. Gunther",
+    "awards": "3"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Jürg Gutknecht",
+    "awards": "1"
+  },
+  {
+    "education": "University of Copenhagen",
+    "name": "Michael Guy",
+    "awards": "4"
+  },
+  {
+    "education": "INSEAD",
+    "name": "Robert Griesemer",
+    "awards": "5"
+  },
+  {
+    "education": "University of Jordan",
+    "name": "Nico Habermann",
+    "awards": "7"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "Philipp Matthäus Hahn",
+    "awards": "9"
+  },
+  {
+    "education": "University of Hong Kong",
+    "name": "Eldon C. Hall",
+    "awards": "6"
+  },
+  {
+    "education": "IESE Business School",
+    "name": "Wendy Hall",
+    "awards": "3"
+  },
+  {
+    "education": "EPFL",
+    "name": "Joseph Halpern",
+    "awards": "4"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Margaret Hamilton",
+    "awards": "0"
+  },
+  {
+    "education": "Imperial",
+    "name": "Richard Hamming",
+    "awards": "5"
+  },
+  {
+    "education": "IESE Business School",
+    "name": "Jiawei Han",
+    "awards": "5"
+  },
+  {
+    "education": "UPenn",
+    "name": "Frank Harary",
+    "awards": "4"
+  },
+  {
+    "education": "University of Tokyo",
+    "name": "Brian Harris",
+    "awards": "3"
+  },
+  {
+    "education": "Harvard",
+    "name": "Juris Hartmanis",
+    "awards": "9"
+  },
+  {
+    "education": "INSEAD",
+    "name": "Johan Håstad",
+    "awards": "3"
+  },
+  {
+    "education": "Harvard",
+    "name": "Les Hatton",
+    "awards": "4"
+  },
+  {
+    "education": "King Saud University",
+    "name": "Igor Hawryszkiewycz",
+    "awards": "7"
+  },
+  {
+    "education": "Caltech",
+    "name": "He Jifeng",
+    "awards": "8"
+  },
+  {
+    "education": "University of Washington",
+    "name": "Eric Hehner",
+    "awards": "8"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Martin Hellman",
+    "awards": "5"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Gernot Heiser",
+    "awards": "6"
+  },
+  {
+    "education": "Princeton",
+    "name": "James Hendler",
+    "awards": "1"
+  },
+  {
+    "education": "CEID",
+    "name": "John L. Hennessy",
+    "awards": "0"
+  },
+  {
+    "education": "UC Berkeley",
+    "name": "Andrew Herbert",
+    "awards": "3"
+  },
+  {
+    "education": "Columbia",
+    "name": "Carl Hewitt",
+    "awards": "0"
+  },
+  {
+    "education": "UC San Francisco",
+    "name": "Kelsey Hightower",
+    "awards": "3"
+  },
+  {
+    "education": "Stanford",
+    "name": "Danny Hillis",
+    "awards": "8"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Geoffrey Hinton",
+    "awards": "5"
+  },
+  {
+    "education": "UCLA",
+    "name": "Julia Hirschberg",
+    "awards": "6"
+  },
+  {
+    "education": "University of Puerto Rico",
+    "name": "Tin Kam Ho",
+    "awards": "4"
+  },
+  {
+    "education": "Stanford",
+    "name": "C. A. R. Hoare",
+    "awards": "9"
+  },
+  {
+    "education": "University of Montevideo",
+    "name": "Louis Hodes",
+    "awards": "5"
+  },
+  {
+    "education": "University of Vienna",
+    "name": "Betty Holberton",
+    "awards": "1"
+  },
+  {
+    "education": "UC Berkeley",
+    "name": "John Henry Holland",
+    "awards": "0"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Herman Hollerith",
+    "awards": "0"
+  },
+  {
+    "education": "MIT",
+    "name": "Gerard Holzmann",
+    "awards": "4"
+  },
+  {
+    "education": "Sultan Qaboos University",
+    "name": "John Hopcroft",
+    "awards": "0"
+  },
+  {
+    "education": "KAIST",
+    "name": "Grace Hopper",
+    "awards": "5"
+  },
+  {
+    "education": "UCL",
+    "name": "Eric Horvitz",
+    "awards": "8"
+  },
+  {
+    "education": "LSE",
+    "name": "Alston Householder",
+    "awards": "1"
+  },
+  {
+    "education": "University of Puerto Rico",
+    "name": "Paul Hudak",
+    "awards": "8"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "David A. Huffman",
+    "awards": "4"
+  },
+  {
+    "education": "Qatar University",
+    "name": "John Hughes",
+    "awards": "6"
+  },
+  {
+    "education": "Columbia",
+    "name": "Roger Hui",
+    "awards": "7"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "Watts Humphrey",
+    "awards": "1"
+  },
+  {
+    "education": "Sultan Qaboos University",
+    "name": "Sandra Hutchins",
+    "awards": "9"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Steve Hoberman",
+    "awards": "0"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Jean Ichbiah",
+    "awards": "5"
+  },
+  {
+    "education": "KAIST",
+    "name": "Roberto Ierusalimschy",
+    "awards": "3"
+  },
+  {
+    "education": "University of Puerto Rico",
+    "name": "Dan Ingalls",
+    "awards": "3"
+  },
+  {
+    "education": "Imperial",
+    "name": "Mary Jane Irwin",
+    "awards": "7"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Kenneth E. Iverson",
+    "awards": "8"
+  },
+  {
+    "education": "UIUC",
+    "name": "Ivar Jacobson",
+    "awards": "3"
+  },
+  {
+    "education": "University of Washington",
+    "name": "Anil K. Jain",
+    "awards": "3"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Ramesh Jain",
+    "awards": "0"
+  },
+  {
+    "education": "University of Nairobi",
+    "name": "Jonathan James",
+    "awards": "0"
+  },
+  {
+    "education": "University of Chicago",
+    "name": "David S. Johnson",
+    "awards": "2"
+  },
+  {
+    "education": "American University in Dubai",
+    "name": "Stephen C. Johnson",
+    "awards": "2"
+  },
+  {
+    "education": "NUS",
+    "name": "Cliff Jones",
+    "awards": "0"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "Michael I. Jordan",
+    "awards": "5"
+  },
+  {
+    "education": "Qatar University",
+    "name": "Mathai Joseph",
+    "awards": "0"
+  },
+  {
+    "education": "University of Lima",
+    "name": "Aravind K. Joshi",
+    "awards": "8"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Bill Joy",
+    "awards": "4"
+  },
+  {
+    "education": "UT Austin",
+    "name": "Dan Jurafsky",
+    "awards": "7"
+  },
+  {
+    "education": "Caltech",
+    "name": "William Kahan",
+    "awards": "6"
+  },
+  {
+    "education": "UCSD",
+    "name": "Robert E. Kahn",
+    "awards": "0"
+  },
+  {
+    "education": "King Saud University",
+    "name": "Avinash Kak",
+    "awards": "3"
+  },
+  {
+    "education": "Yale",
+    "name": "Poul-Henning Kamp",
+    "awards": "0"
+  },
+  {
+    "education": "University of Melbourne",
+    "name": "David Karger",
+    "awards": "1"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Richard Karp",
+    "awards": "9"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Narendra Karmarkar",
+    "awards": "6"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Marek Karpinski",
+    "awards": "5"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Ted Kaehler",
+    "awards": "6"
+  },
+  {
+    "education": "King Saud University",
+    "name": "Alan Kay",
+    "awards": "7"
+  },
+  {
+    "education": "CEID",
+    "name": "Neeraj Kayal",
+    "awards": "9"
+  },
+  {
+    "education": "University of Amsterdam",
+    "name": "Manolis Kellis",
+    "awards": "7"
+  },
+  {
+    "education": "Bosphorus University",
+    "name": "John George Kemeny",
+    "awards": "1"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "Ken Kennedy",
+    "awards": "5"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Brian Kernighan",
+    "awards": "4"
+  },
+  {
+    "education": "Kuwait University",
+    "name": "Carl Kesselman",
+    "awards": "4"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Gregor Kiczales",
+    "awards": "7"
+  },
+  {
+    "education": "UC Berkeley",
+    "name": "Peter T. Kirstein",
+    "awards": "1"
+  },
+  {
+    "education": "University of Montevideo",
+    "name": "Stephen Cole Kleene",
+    "awards": "3"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Dan Klein",
+    "awards": "9"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Leonard Kleinrock",
+    "awards": "8"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "Donald Knuth",
+    "awards": "7"
+  },
+  {
+    "education": "Columbia",
+    "name": "Andrew Koenig",
+    "awards": "6"
+  },
+  {
+    "education": "National University of Asuncion",
+    "name": "Daphne Koller",
+    "awards": "6"
+  },
+  {
+    "education": "University of Tunis",
+    "name": "Michael Kölling",
+    "awards": "9"
+  },
+  {
+    "education": "University of Sydney",
+    "name": "Andrey Nikolaevich Kolmogorov",
+    "awards": "3"
+  },
+  {
+    "education": "UBC",
+    "name": "Janet L. Kolodner",
+    "awards": "2"
+  },
+  {
+    "education": "Kuwait University",
+    "name": "David Korn",
+    "awards": "6"
+  },
+  {
+    "education": "EPFL",
+    "name": "Kees Koster",
+    "awards": "6"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "Robert Kowalski",
+    "awards": "5"
+  },
+  {
+    "education": "UT Austin",
+    "name": "John Koza",
+    "awards": "8"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "John Krogstie",
+    "awards": "8"
+  },
+  {
+    "education": "University of Lima",
+    "name": "Joseph Kruskal",
+    "awards": "6"
+  },
+  {
+    "education": "Imperial",
+    "name": "Maarja Kruusmaa",
+    "awards": "6"
+  },
+  {
+    "education": "UCLA",
+    "name": "Thomas E. Kurtz",
+    "awards": "7"
+  },
+  {
+    "education": "University of Tunis",
+    "name": "Richard E. Ladner",
+    "awards": "2"
+  },
+  {
+    "education": "University of Puerto Rico",
+    "name": "Monica S. Lam",
+    "awards": "5"
+  },
+  {
+    "education": "Peking University",
+    "name": "Leslie Lamport",
+    "awards": "3"
+  },
+  {
+    "education": "University of Washington",
+    "name": "Butler Lampson",
+    "awards": "5"
+  },
+  {
+    "education": "Moscow State University",
+    "name": "Peter Landin",
+    "awards": "5"
+  },
+  {
+    "education": "University of Edinburgh",
+    "name": "Tom Lane",
+    "awards": "7"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Börje Langefors",
+    "awards": "5"
+  },
+  {
+    "education": "NUS",
+    "name": "Chris Lattner",
+    "awards": "9"
+  },
+  {
+    "education": "UT Austin",
+    "name": "Steve Lawrence",
+    "awards": "3"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "Edward D. Lazowska",
+    "awards": "2"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Joshua Lederberg",
+    "awards": "9"
+  },
+  {
+    "education": "TU Munich",
+    "name": "Manny M Lehman",
+    "awards": "5"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Charles E. Leiserson",
+    "awards": "5"
+  },
+  {
+    "education": "University of Oxford",
+    "name": "Douglas Lenat",
+    "awards": "5"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "Yann LeCun",
+    "awards": "4"
+  },
+  {
+    "education": "TU Munich",
+    "name": "Rasmus Lerdorf",
+    "awards": "3"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Max Levchin",
+    "awards": "1"
+  },
+  {
+    "education": "UC San Francisco",
+    "name": "Leonid Levin",
+    "awards": "6"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Kevin Leyton-Brown",
+    "awards": "9"
+  },
+  {
+    "education": "NUS",
+    "name": "J.C.R. Licklider",
+    "awards": "3"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "David Liddle",
+    "awards": "8"
+  },
+  {
+    "education": "MIT",
+    "name": "Jochen Liedtke",
+    "awards": "5"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "John Lions",
+    "awards": "3"
+  },
+  {
+    "education": "UCL",
+    "name": "Charles H. Lindsey",
+    "awards": "3"
+  },
+  {
+    "education": "United Arab Emirates University",
+    "name": "Richard J. Lipton",
+    "awards": "4"
+  },
+  {
+    "education": "INSEAD",
+    "name": "Barbara Liskov",
+    "awards": "3"
+  },
+  {
+    "education": "LSE",
+    "name": "Yanhong Annie Liu",
+    "awards": "1"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Darrell Long",
+    "awards": "4"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Patricia D. Lopez",
+    "awards": "2"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "Gillian Lovegrove",
+    "awards": "4"
+  },
+  {
+    "education": "Caltech",
+    "name": "Ada Lovelace",
+    "awards": "4"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "David Luckham",
+    "awards": "7"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "Eugene Luks",
+    "awards": "8"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Nancy Lynch",
+    "awards": "7"
+  },
+  {
+    "education": "University of Jordan",
+    "name": "Nadia Magnenat Thalmann",
+    "awards": "0"
+  },
+  {
+    "education": "KAIST",
+    "name": "Tom Maibaum",
+    "awards": "6"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Simon Marlow",
+    "awards": "1"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "Zohar Manna",
+    "awards": "8"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "James Martin",
+    "awards": "4"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Robert C. Martin",
+    "awards": "2"
+  },
+  {
+    "education": "Columbia",
+    "name": "John Mashey",
+    "awards": "6"
+  },
+  {
+    "education": "Princeton",
+    "name": "Yuri Matiyasevich",
+    "awards": "9"
+  },
+  {
+    "education": "University of Quito",
+    "name": "Yukihiro Matsumoto",
+    "awards": "3"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "John Mauchly",
+    "awards": "2"
+  },
+  {
+    "education": "INSEAD",
+    "name": "Ujjwal Maulik",
+    "awards": "9"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "Derek McAuley",
+    "awards": "5"
+  },
+  {
+    "education": "Bosphorus University",
+    "name": "John McCarthy",
+    "awards": "4"
+  },
+  {
+    "education": "EPFL",
+    "name": "Andrew McCallum",
+    "awards": "6"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "Douglas McIlroy",
+    "awards": "7"
+  },
+  {
+    "education": "University of Hong Kong",
+    "name": "Chris McKinstry",
+    "awards": "8"
+  },
+  {
+    "education": "TU Munich",
+    "name": "Marshall Kirk McKusick",
+    "awards": "0"
+  },
+  {
+    "education": "NYU",
+    "name": "Lambert Meertens",
+    "awards": "5"
+  },
+  {
+    "education": "University of Hong Kong",
+    "name": "Kurt Mehlhorn",
+    "awards": "7"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "Dora Metcalf",
+    "awards": "1"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Bertrand Meyer",
+    "awards": "6"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "Silvio Micali",
+    "awards": "8"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Robin Milner",
+    "awards": "9"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Jack Minker",
+    "awards": "6"
+  },
+  {
+    "education": "CEID",
+    "name": "Marvin Minsky",
+    "awards": "8"
+  },
+  {
+    "education": "American University in Dubai",
+    "name": "James G. Mitchell",
+    "awards": "3"
+  },
+  {
+    "education": "Princeton",
+    "name": "Tom M. Mitchell",
+    "awards": "9"
+  },
+  {
+    "education": "University of Montevideo",
+    "name": "Arvind Mithal",
+    "awards": "1"
+  },
+  {
+    "education": "University of Lima",
+    "name": "Paul Mockapetris",
+    "awards": "5"
+  },
+  {
+    "education": "LSE",
+    "name": "Cleve Moler",
+    "awards": "7"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "Faron Moller",
+    "awards": "8"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "John P. Moon",
+    "awards": "0"
+  },
+  {
+    "education": "University of Lima",
+    "name": "Charles H. Moore",
+    "awards": "4"
+  },
+  {
+    "education": "Caltech",
+    "name": "Edward F. Moore",
+    "awards": "9"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "Gordon Moore",
+    "awards": "6"
+  },
+  {
+    "education": "Australian National University",
+    "name": "J Strother Moore",
+    "awards": "8"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Roger Moore",
+    "awards": "6"
+  },
+  {
+    "education": "UC Berkeley",
+    "name": "Hans Moravec",
+    "awards": "9"
+  },
+  {
+    "education": "TU Munich",
+    "name": "Carroll Morgan",
+    "awards": "5"
+  },
+  {
+    "education": "University of Puerto Rico",
+    "name": "Robert Tappan Morris",
+    "awards": "1"
+  },
+  {
+    "education": "University of Havana",
+    "name": "Joel Moses",
+    "awards": "8"
+  },
+  {
+    "education": "University of Vienna",
+    "name": "Rajeev Motwani",
+    "awards": "8"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Oleg A. Mukhanov",
+    "awards": "4"
+  },
+  {
+    "education": "Bosphorus University",
+    "name": "Stephen Muggleton",
+    "awards": "5"
+  },
+  {
+    "education": "UPenn",
+    "name": "Klaus-Robert Müller",
+    "awards": "0"
+  },
+  {
+    "education": "University of Melbourne",
+    "name": "Alan Mycroft",
+    "awards": "8"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Brad A. Myers",
+    "awards": "6"
+  },
+  {
+    "education": "University of Tokyo",
+    "name": "Mihai Nadin",
+    "awards": "4"
+  },
+  {
+    "education": "University of Vienna",
+    "name": "Makoto Nagao",
+    "awards": "6"
+  },
+  {
+    "education": "CEID",
+    "name": "Frieder Nake",
+    "awards": "5"
+  },
+  {
+    "education": "UT Austin",
+    "name": "Bonnie Nardi",
+    "awards": "1"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Peter Naur",
+    "awards": "6"
+  },
+  {
+    "education": "EPFL",
+    "name": "Roger Needham",
+    "awards": "5"
+  },
+  {
+    "education": "Sultan Qaboos University",
+    "name": "James G. Nell",
+    "awards": "1"
+  },
+  {
+    "education": "Harvard",
+    "name": "Greg Nelson",
+    "awards": "3"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Bernard de Neumann",
+    "awards": "2"
+  },
+  {
+    "education": "University of Montevideo",
+    "name": "Klara Dan von Neumann",
+    "awards": "7"
+  },
+  {
+    "education": "CEID",
+    "name": "John von Neumann",
+    "awards": "3"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "Allen Newell",
+    "awards": "4"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Max Newman",
+    "awards": "1"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Andrew Ng",
+    "awards": "1"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Nils John Nilsson",
+    "awards": "2"
+  },
+  {
+    "education": "University of Havana",
+    "name": "G.M. Nijssen",
+    "awards": "2"
+  },
+  {
+    "education": "EPFL",
+    "name": "Tobias Nipkow",
+    "awards": "9"
+  },
+  {
+    "education": "Columbia",
+    "name": "Maurice Nivat",
+    "awards": "1"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Phiwa Nkambule",
+    "awards": "8"
+  },
+  {
+    "education": "University of Guyana",
+    "name": "Jerre Noe",
+    "awards": "8"
+  },
+  {
+    "education": "Caltech",
+    "name": "Peter Nordin",
+    "awards": "4"
+  },
+  {
+    "education": "NUS",
+    "name": "Donald Norman",
+    "awards": "4"
+  },
+  {
+    "education": "IESE Business School",
+    "name": "Peter Norvig",
+    "awards": "0"
+  },
+  {
+    "education": "United Arab Emirates University",
+    "name": "George Novacky",
+    "awards": "8"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Kristen Nygaard",
+    "awards": "0"
+  },
+  {
+    "education": "IESE Business School",
+    "name": "Martin Odersky",
+    "awards": "5"
+  },
+  {
+    "education": "UCL",
+    "name": "Peter O'Hearn",
+    "awards": "8"
+  },
+  {
+    "education": "University of Guyana",
+    "name": "T. William Olle",
+    "awards": "8"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Steve Omohundro",
+    "awards": "1"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Severo Ornstein",
+    "awards": "8"
+  },
+  {
+    "education": "Caltech",
+    "name": "John O'Sullivan",
+    "awards": "4"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "John Ousterhout",
+    "awards": "7"
+  },
+  {
+    "education": "Peking University",
+    "name": "Mark Overmars",
+    "awards": "5"
+  },
+  {
+    "education": "CEID",
+    "name": "Susan Owicki",
+    "awards": "1"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "Larry Page",
+    "awards": "0"
+  },
+  {
+    "education": "UBC",
+    "name": "Sankar Pal",
+    "awards": "2"
+  },
+  {
+    "education": "University of Lima",
+    "name": "Paritosh Pandya",
+    "awards": "3"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "Christos Papadimitriou",
+    "awards": "5"
+  },
+  {
+    "education": "University of Chicago",
+    "name": "David Park",
+    "awards": "2"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "David Parnas",
+    "awards": "6"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "DJ Patil",
+    "awards": "3"
+  },
+  {
+    "education": "Columbia",
+    "name": "Yale Patt",
+    "awards": "5"
+  },
+  {
+    "education": "University of Jordan",
+    "name": "David Patterson",
+    "awards": "6"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Mike Paterson",
+    "awards": "7"
+  },
+  {
+    "education": "UIUC",
+    "name": "Mihai Pătraşcu",
+    "awards": "4"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Lawrence Paulson",
+    "awards": "5"
+  },
+  {
+    "education": "University of Washington",
+    "name": "Randy Pausch",
+    "awards": "0"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "Juan Pavón",
+    "awards": "1"
+  },
+  {
+    "education": "Imperial",
+    "name": "Judea Pearl",
+    "awards": "7"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "Alan Perlis",
+    "awards": "4"
+  },
+  {
+    "education": "Caltech",
+    "name": "Radia Perlman",
+    "awards": "8"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "Pier Giorgio Perotto",
+    "awards": "0"
+  },
+  {
+    "education": "University of Tunis",
+    "name": "Rózsa Péter",
+    "awards": "5"
+  },
+  {
+    "education": "EPFL",
+    "name": "Simon Peyton Jones",
+    "awards": "2"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "Kathy Pham",
+    "awards": "9"
+  },
+  {
+    "education": "Harvard",
+    "name": "Roberto Pieraccini",
+    "awards": "4"
+  },
+  {
+    "education": "University of Oxford",
+    "name": "Keshav Pingali",
+    "awards": "2"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Gordon Plotkin",
+    "awards": "3"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "Amir Pnueli",
+    "awards": "8"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "Willem van der Poel",
+    "awards": "1"
+  },
+  {
+    "education": "UBC",
+    "name": "Cicely Popplewell",
+    "awards": "6"
+  },
+  {
+    "education": "Qatar University",
+    "name": "Emil Post",
+    "awards": "9"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "Jon Postel",
+    "awards": "8"
+  },
+  {
+    "education": "UC Berkeley",
+    "name": "Franco Preparata",
+    "awards": "1"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "William H. Press",
+    "awards": "4"
+  },
+  {
+    "education": "UT Austin",
+    "name": "Rapelang Rabana",
+    "awards": "8"
+  },
+  {
+    "education": "University of Havana",
+    "name": "Grzegorz Rozenberg",
+    "awards": "4"
+  },
+  {
+    "education": "University of Havana",
+    "name": "Michael O. Rabin",
+    "awards": "8"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "Dragomir R. Radev",
+    "awards": "8"
+  },
+  {
+    "education": "NYU",
+    "name": "T. V. Raman",
+    "awards": "7"
+  },
+  {
+    "education": "Qatar University",
+    "name": "Brian Randell",
+    "awards": "2"
+  },
+  {
+    "education": "UPenn",
+    "name": "Anders P. Ravn",
+    "awards": "1"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Raj Reddy",
+    "awards": "4"
+  },
+  {
+    "education": "University of Sydney",
+    "name": "David P. Reed",
+    "awards": "1"
+  },
+  {
+    "education": "IESE Business School",
+    "name": "Trygve Reenskaug",
+    "awards": "7"
+  },
+  {
+    "education": "University of Sydney",
+    "name": "John C. Reynolds",
+    "awards": "3"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Joyce K. Reynolds",
+    "awards": "2"
+  },
+  {
+    "education": "King Saud University",
+    "name": "Reinder van de Riet",
+    "awards": "2"
+  },
+  {
+    "education": "CEID",
+    "name": "Bernard Richards",
+    "awards": "8"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Martin Richards",
+    "awards": "3"
+  },
+  {
+    "education": "NYU",
+    "name": "Adam Riese",
+    "awards": "5"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "C. J. van Rijsbergen",
+    "awards": "4"
+  },
+  {
+    "education": "CEID",
+    "name": "Dennis Ritchie",
+    "awards": "1"
+  },
+  {
+    "education": "UBC",
+    "name": "Ron Rivest",
+    "awards": "2"
+  },
+  {
+    "education": "Stanford",
+    "name": "Ken Robinson",
+    "awards": "3"
+  },
+  {
+    "education": "Carnegie Mellon",
+    "name": "Colette Rolland",
+    "awards": "6"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "John Romero",
+    "awards": "4"
+  },
+  {
+    "education": "University of Copenhagen",
+    "name": "Azriel Rosenfeld",
+    "awards": "4"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Douglas T. Ross",
+    "awards": "5"
+  },
+  {
+    "education": "Princeton",
+    "name": "Guido van Rossum",
+    "awards": "6"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "M. A. Rothman",
+    "awards": "0"
+  },
+  {
+    "education": "Imperial",
+    "name": "Winston W. Royce",
+    "awards": "6"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "Rudy Rucker",
+    "awards": "4"
+  },
+  {
+    "education": "University of Tokyo",
+    "name": "Steven Rudich",
+    "awards": "8"
+  },
+  {
+    "education": "Bosphorus University",
+    "name": "Jeff Rulifson",
+    "awards": "2"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "James Rumbaugh",
+    "awards": "0"
+  },
+  {
+    "education": "EPFL",
+    "name": "Peter Ružička",
+    "awards": "2"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "George Sadowsky",
+    "awards": "6"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Mehrnoosh Sadrzadeh",
+    "awards": "6"
+  },
+  {
+    "education": "NYU",
+    "name": "Umar Saif",
+    "awards": "3"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Gerard Salton",
+    "awards": "2"
+  },
+  {
+    "education": "University of Puerto Rico",
+    "name": "Jean E. Sammet",
+    "awards": "8"
+  },
+  {
+    "education": "Stanford",
+    "name": "Claude Sammut",
+    "awards": "4"
+  },
+  {
+    "education": "Yale",
+    "name": "Carl Sassenrath",
+    "awards": "8"
+  },
+  {
+    "education": "UC San Francisco",
+    "name": "Mahadev Satyanarayanan",
+    "awards": "9"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Walter Savitch",
+    "awards": "0"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Jonathan Schaeffer",
+    "awards": "2"
+  },
+  {
+    "education": "University of Puerto Rico",
+    "name": "Wilhelm Schickard",
+    "awards": "0"
+  },
+  {
+    "education": "Kuwait University",
+    "name": "Jürgen Schmidhuber",
+    "awards": "8"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Steve Schneider",
+    "awards": "0"
+  },
+  {
+    "education": "University of Havana",
+    "name": "Bruce Schneier",
+    "awards": "3"
+  },
+  {
+    "education": "UIUC",
+    "name": "Fred B. Schneider",
+    "awards": "2"
+  },
+  {
+    "education": "University of Sydney",
+    "name": "Sarita Schoenebeck",
+    "awards": "6"
+  },
+  {
+    "education": "Caltech",
+    "name": "Glenda Schroeder",
+    "awards": "0"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Bernhard Schölkopf",
+    "awards": "6"
+  },
+  {
+    "education": "Qatar University",
+    "name": "Dana Scott",
+    "awards": "1"
+  },
+  {
+    "education": "American University in Dubai",
+    "name": "Michael L. Scott",
+    "awards": "1"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Robert Sedgewick",
+    "awards": "2"
+  },
+  {
+    "education": "University of Bahrain",
+    "name": "Ravi Sethi",
+    "awards": "3"
+  },
+  {
+    "education": "KAIST",
+    "name": "Nigel Shadbolt",
+    "awards": "6"
+  },
+  {
+    "education": "University of Lima",
+    "name": "Adi Shamir",
+    "awards": "2"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "Claude Shannon",
+    "awards": "0"
+  },
+  {
+    "education": "IESE Business School",
+    "name": "David E. Shaw",
+    "awards": "6"
+  },
+  {
+    "education": "Stanford",
+    "name": "Cliff Shaw",
+    "awards": "3"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Scott Shenker",
+    "awards": "0"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Shashi Shekhar",
+    "awards": "0"
+  },
+  {
+    "education": "Johns Hopkins",
+    "name": "Ben Shneiderman",
+    "awards": "4"
+  },
+  {
+    "education": "United Arab Emirates University",
+    "name": "Edward H. Shortliffe",
+    "awards": "4"
+  },
+  {
+    "education": "Australian National University",
+    "name": "Daniel Siewiorek",
+    "awards": "6"
+  },
+  {
+    "education": "Columbia",
+    "name": "Joseph Sifakis",
+    "awards": "4"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "Herbert A. Simon",
+    "awards": "8"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "Munindar P. Singh",
+    "awards": "2"
+  },
+  {
+    "education": "UPenn",
+    "name": "Ramesh Sitaraman",
+    "awards": "2"
+  },
+  {
+    "education": "University of Melbourne",
+    "name": "Daniel Sleator",
+    "awards": "1"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Aaron Sloman",
+    "awards": "0"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Arne Sølvberg",
+    "awards": "8"
+  },
+  {
+    "education": "TU Munich",
+    "name": "Brian Cantwell Smith",
+    "awards": "1"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "David Canfield Smith",
+    "awards": "1"
+  },
+  {
+    "education": "Princeton",
+    "name": "Steven Spewak",
+    "awards": "3"
+  },
+  {
+    "education": "University of Havana",
+    "name": "Carol Spradling",
+    "awards": "1"
+  },
+  {
+    "education": "Seoul National University",
+    "name": "Robert Sproull",
+    "awards": "3"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Rohini Kesavan Srihari",
+    "awards": "7"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Sargur Srihari",
+    "awards": "7"
+  },
+  {
+    "education": "United Arab Emirates University",
+    "name": "Maciej Stachowiak",
+    "awards": "7"
+  },
+  {
+    "education": "University of Tunis",
+    "name": "Richard Stallman",
+    "awards": "9"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Ronald Stamper",
+    "awards": "1"
+  },
+  {
+    "education": "Imperial",
+    "name": "Thad Starner",
+    "awards": "5"
+  },
+  {
+    "education": "UCL",
+    "name": "Richard E. Stearns",
+    "awards": "6"
+  },
+  {
+    "education": "University of Nairobi",
+    "name": "Guy L. Steele, Jr.",
+    "awards": "6"
+  },
+  {
+    "education": "UPenn",
+    "name": "Thomas Sterling",
+    "awards": "8"
+  },
+  {
+    "education": "Peking University",
+    "name": "Alexander Stepanov",
+    "awards": "1"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "W. Richard Stevens",
+    "awards": "7"
+  },
+  {
+    "education": "University of Puerto Rico",
+    "name": "Larry Stockmeyer",
+    "awards": "1"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "Salvatore Stolfo",
+    "awards": "2"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Michael Stonebraker",
+    "awards": "5"
+  },
+  {
+    "education": "University of Amsterdam",
+    "name": "Olaf Storaasli",
+    "awards": "0"
+  },
+  {
+    "education": "United Arab Emirates University",
+    "name": "Christopher Strachey",
+    "awards": "9"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Volker Strassen",
+    "awards": "2"
+  },
+  {
+    "education": "University of Amsterdam",
+    "name": "Bjarne Stroustrup",
+    "awards": "5"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Madhu Sudan",
+    "awards": "6"
+  },
+  {
+    "education": "United Arab Emirates University",
+    "name": "Gerald Jay Sussman",
+    "awards": "9"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Bert Sutherland",
+    "awards": "0"
+  },
+  {
+    "education": "Australian National University",
+    "name": "Ivan Sutherland",
+    "awards": "7"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Latanya Sweeney",
+    "awards": "0"
+  },
+  {
+    "education": "University of Oxford",
+    "name": "Mario Szegedy",
+    "awards": "8"
+  },
+  {
+    "education": "University of Nairobi",
+    "name": "Parisa Tabriz",
+    "awards": "3"
+  },
+  {
+    "education": "EPFL",
+    "name": "Roberto Tamassia",
+    "awards": "2"
+  },
+  {
+    "education": "CEID",
+    "name": "Andrew S. Tanenbaum",
+    "awards": "9"
+  },
+  {
+    "education": "UT Austin",
+    "name": "Austin Tate",
+    "awards": "7"
+  },
+  {
+    "education": "UCLA",
+    "name": "Bernhard Thalheim",
+    "awards": "3"
+  },
+  {
+    "education": "UBC",
+    "name": "Éva Tardos",
+    "awards": "0"
+  },
+  {
+    "education": "UCL",
+    "name": "Gábor Tardos",
+    "awards": "3"
+  },
+  {
+    "education": "LSE",
+    "name": "Robert Tarjan",
+    "awards": "8"
+  },
+  {
+    "education": "University of Montevideo",
+    "name": "Valerie Taylor",
+    "awards": "7"
+  },
+  {
+    "education": "IESE Business School",
+    "name": "Mario Tchou",
+    "awards": "5"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Jaime Teevan",
+    "awards": "5"
+  },
+  {
+    "education": "University of Edinburgh",
+    "name": "Shang-Hua Teng",
+    "awards": "9"
+  },
+  {
+    "education": "University of Tokyo",
+    "name": "Larry Tesler",
+    "awards": "6"
+  },
+  {
+    "education": "University of Cape Town",
+    "name": "Avie Tevanian",
+    "awards": "6"
+  },
+  {
+    "education": "University of Baghdad",
+    "name": "Charles P. Thacker",
+    "awards": "2"
+  },
+  {
+    "education": "UBC",
+    "name": "Daniel Thalmann",
+    "awards": "3"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Ken Thompson",
+    "awards": "6"
+  },
+  {
+    "education": "University of Copenhagen",
+    "name": "Sebastian Thrun",
+    "awards": "4"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Walter F. Tichy",
+    "awards": "6"
+  },
+  {
+    "education": "University of Panama",
+    "name": "Seinosuke Toda",
+    "awards": "1"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "Chai Keong Toh",
+    "awards": "4"
+  },
+  {
+    "education": "Yale",
+    "name": "Linus Torvalds",
+    "awards": "7"
+  },
+  {
+    "education": "University of Amsterdam",
+    "name": "Leonardo Torres Quevedo",
+    "awards": "8"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Godfried Toussaint",
+    "awards": "4"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "Gloria Townsend",
+    "awards": "8"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "Edwin E. Tozer",
+    "awards": "6"
+  },
+  {
+    "education": "Yale",
+    "name": "Joseph F Traub",
+    "awards": "4"
+  },
+  {
+    "education": "University of Toronto",
+    "name": "John V. Tucker",
+    "awards": "6"
+  },
+  {
+    "education": "Qatar University",
+    "name": "John Tukey",
+    "awards": "1"
+  },
+  {
+    "education": "NUS",
+    "name": "Alan Turing",
+    "awards": "2"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "David Turner",
+    "awards": "8"
+  },
+  {
+    "education": "University of Havana",
+    "name": "Murray Turoff",
+    "awards": "2"
+  },
+  {
+    "education": "University of Michigan",
+    "name": "Jeffrey D. Ullman",
+    "awards": "6"
+  },
+  {
+    "education": "KAIST",
+    "name": "Leslie Valiant",
+    "awards": "9"
+  },
+  {
+    "education": "University of Nairobi",
+    "name": "Vladimir Vapnik",
+    "awards": "5"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Moshe Vardi",
+    "awards": "7"
+  },
+  {
+    "education": "Harvard",
+    "name": "Dorothy Vaughan",
+    "awards": "7"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Bernard Vauquois",
+    "awards": "4"
+  },
+  {
+    "education": "King Saud University",
+    "name": "Umesh Vazirani",
+    "awards": "5"
+  },
+  {
+    "education": "University of Sydney",
+    "name": "Manuela M. Veloso",
+    "awards": "2"
+  },
+  {
+    "education": "UBC",
+    "name": "François Vernadat",
+    "awards": "3"
+  },
+  {
+    "education": "INSEAD",
+    "name": "Richard Veryard",
+    "awards": "6"
+  },
+  {
+    "education": "Peking University",
+    "name": "Sergiy Vilkomir",
+    "awards": "4"
+  },
+  {
+    "education": "KAIST",
+    "name": "Paul Vitanyi",
+    "awards": "5"
+  },
+  {
+    "education": "University of Chicago",
+    "name": "Andrew Viterbi",
+    "awards": "2"
+  },
+  {
+    "education": "UIUC",
+    "name": "Jeffrey Scott Vitter",
+    "awards": "3"
+  },
+  {
+    "education": "NYU",
+    "name": "Paul Vixie",
+    "awards": "6"
+  },
+  {
+    "education": "Bosphorus University",
+    "name": "Eiiti Wada",
+    "awards": "2"
+  },
+  {
+    "education": "University of Hong Kong",
+    "name": "David Wagner",
+    "awards": "0"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "David Waltz",
+    "awards": "6"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "James Z. Wang",
+    "awards": "7"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "Steve Ward",
+    "awards": "1"
+  },
+  {
+    "education": "UBC",
+    "name": "Manfred K. Warmuth",
+    "awards": "8"
+  },
+  {
+    "education": "American University in Dubai",
+    "name": "David H. D. Warren",
+    "awards": "7"
+  },
+  {
+    "education": "INSEAD",
+    "name": "Kevin Warwick",
+    "awards": "8"
+  },
+  {
+    "education": "Moscow State University",
+    "name": "Jan Weglarz",
+    "awards": "0"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Philip Wadler",
+    "awards": "3"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "Peter Wegner",
+    "awards": "0"
+  },
+  {
+    "education": "University of Marrakech",
+    "name": "Joseph Henry Wegstein",
+    "awards": "7"
+  },
+  {
+    "education": "Harvard",
+    "name": "Peter J. Weinberger",
+    "awards": "4"
+  },
+  {
+    "education": "Princeton",
+    "name": "Mark Weiser",
+    "awards": "2"
+  },
+  {
+    "education": "Moscow State University",
+    "name": "Joseph Weizenbaum",
+    "awards": "5"
+  },
+  {
+    "education": "Imperial",
+    "name": "David Wheeler",
+    "awards": "7"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Franklin H. Westervelt",
+    "awards": "0"
+  },
+  {
+    "education": "TU Munich",
+    "name": "Steve Whittaker",
+    "awards": "8"
+  },
+  {
+    "education": "University of Brussels",
+    "name": "Jennifer Widom",
+    "awards": "5"
+  },
+  {
+    "education": "Tel Aviv University",
+    "name": "Gio Wiederhold",
+    "awards": "8"
+  },
+  {
+    "education": "Qatar University",
+    "name": "Norbert Wiener",
+    "awards": "6"
+  },
+  {
+    "education": "UCLA",
+    "name": "Adriaan van Wijngaarden",
+    "awards": "5"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "Mary Allen Wilkes",
+    "awards": "8"
+  },
+  {
+    "education": "Yale",
+    "name": "Maurice Vincent Wilkes",
+    "awards": "0"
+  },
+  {
+    "education": "KAIST",
+    "name": "Yorick Wilks",
+    "awards": "5"
+  },
+  {
+    "education": "Columbia",
+    "name": "James H. Wilkinson",
+    "awards": "0"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Sophie Wilson",
+    "awards": "3"
+  },
+  {
+    "education": "National University of Asuncion",
+    "name": "Shmuel Winograd",
+    "awards": "6"
+  },
+  {
+    "education": "University of Cambridge",
+    "name": "Terry Winograd",
+    "awards": "9"
+  },
+  {
+    "education": "University of Melbourne",
+    "name": "Patrick Winston",
+    "awards": "9"
+  },
+  {
+    "education": "University of Copenhagen",
+    "name": "Niklaus Wirth",
+    "awards": "6"
+  },
+  {
+    "education": "UC Berkeley",
+    "name": "Neil Wiseman",
+    "awards": "1"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Dennis E. Wisnosky",
+    "awards": "7"
+  },
+  {
+    "education": "University of the Andes",
+    "name": "Stephen Wolfram",
+    "awards": "4"
+  },
+  {
+    "education": "NYU",
+    "name": "Mike Woodger",
+    "awards": "1"
+  },
+  {
+    "education": "University of Stockholm",
+    "name": "Philip Woodward",
+    "awards": "0"
+  },
+  {
+    "education": "University of Hong Kong",
+    "name": "Beatrice Helen Worsley",
+    "awards": "3"
+  },
+  {
+    "education": "UT Austin",
+    "name": "Steve Wozniak",
+    "awards": "7"
+  },
+  {
+    "education": "Columbia",
+    "name": "Jie Wu",
+    "awards": "9"
+  },
+  {
+    "education": "LSE",
+    "name": "William Wulf",
+    "awards": "1"
+  },
+  {
+    "education": "EPFL",
+    "name": "Mihalis Yannakakis",
+    "awards": "7"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Andrew Chi-Chih Yao",
+    "awards": "7"
+  },
+  {
+    "education": "HEC Paris",
+    "name": "John Yen",
+    "awards": "9"
+  },
+  {
+    "education": "UCLA",
+    "name": "Nobuo Yoneda",
+    "awards": "9"
+  },
+  {
+    "education": "University of Tehran",
+    "name": "Edward Yourdon",
+    "awards": "3"
+  },
+  {
+    "education": "ETH Zurich",
+    "name": "Moti Yung",
+    "awards": "6"
+  },
+  {
+    "education": "University of Edinburgh",
+    "name": "Lotfi Zadeh",
+    "awards": "1"
+  },
+  {
+    "education": "MIT",
+    "name": "Hans Zantema",
+    "awards": "7"
+  },
+  {
+    "education": "CEID",
+    "name": "Arif Zaman",
+    "awards": "5"
+  },
+  {
+    "education": "Central University of Venezuela",
+    "name": "Stanley Zdonik",
+    "awards": "0"
+  },
+  {
+    "education": "Stanford",
+    "name": "Hussein Zedan",
+    "awards": "9"
+  },
+  {
+    "education": "University of Casablanca",
+    "name": "Shlomo Zilberstein",
+    "awards": "9"
+  },
+  {
+    "education": "Tsinghua University",
+    "name": "Jill Zimmerman",
+    "awards": "2"
+  },
+  {
+    "education": "Peking University",
+    "name": "Konrad Zuse",
+    "awards": "0"
+  }
+]
