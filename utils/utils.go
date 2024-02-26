@@ -76,9 +76,9 @@ func DistExclusive(start, end int) int {
 }
 
 // returns True if key is in (start, end]
-	func InRange(key, start, end int) bool {
-		return Dist(start, end) > Dist(key, end)
-	}
+func InRange(key, start, end int) bool {
+	return Dist(start, end) > Dist(key, end)
+}
 
 // returns True if key is in (start, end)
 func InRangeExclusive(key, start, end int) bool {
